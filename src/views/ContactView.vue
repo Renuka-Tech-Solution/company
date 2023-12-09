@@ -5,8 +5,8 @@
         <!-- Navbar End -->
 
         <!-- Description Start -->
-        <div class="bg-serviceBg bg-cover bg-center h-[100vh] sm:h-[350px] md:h-[400px] lg:h-[400px] lg:w-[100vw]">
-            <div class="flex-col flex-wrap items-center justify-center mx-10 py-28">
+        <div class="bg-serviceBg bg-cover bg-center h-[100vh] sm:h-[350px] md:h-[400px] lg:h-[35rem] lg:w-[100vw]">
+            <div class="flex-col flex-wrap items-center justify-center mx-10 py-28 lg:pt-56">
                 <h1 class="flex-wrap text-3xl sm:text-5xl lg:text-6xl font-black text-white mx-auto text-center">Let's Connenct</h1>
                 <p class="flex-wrap text-xl sm:text-2xl font-semibold text-white mx-auto text-center pt-4">With our real love and genuine passion for an optimized & robust solution, we offer wide range of services</p>
             </div>
@@ -17,14 +17,14 @@
         <div class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 px-10 py-8 lg:px-16 lg:py-10 lg:grid lg:grid-cols-2">
             <div class="py-7">
                 <div>
-                    <h1 class="text-blue-900 font-bold font-Glory flex-wrap text-3xl md:text-4xl lg:text-5xl">Get in Touch</h1>
-                    <p class="text-black font-medium text-lg md:text-xl font-Glory pt-3">Let's Connect to build your ideas into a real website.</p>
+                    <h1 class="text-blue-900 font-bold font-Poppins flex-wrap text-3xl md:text-4xl lg:text-5xl">Get in Touch</h1>
+                    <p class="text-black font-medium text-lg md:text-xl font-Poppins pt-3">Let's Connect to build your ideas into a real website.</p>
                 </div>
                 <div class="py-10 md:py-14">
-                    <h1 class="text-blue-900 font-bold font-Glory flex-wrap text-3xl md:text-4xl lg:text-5xl pb-3">Info</h1>
-                    <p class="text-black font-medium text-lg md:text-xl font-Glory py-1">Swaminarayan Wadi, Rughnathpura Main Road, Opp. Man Mohak Ice Cream, Surat, Gujarat.</p>
-                    <p class="text-black font-medium text-lg md:text-xl font-Glory py-1">info@techrenuka.com</p>
-                    <p class="text-black font-medium text-lg md:text-xl font-Glory py-1">+91 1234567890</p>
+                    <h1 class="text-blue-900 font-bold font-Poppins flex-wrap text-3xl md:text-4xl lg:text-5xl pb-3">Info</h1>
+                    <p class="text-black font-medium text-lg md:text-xl font-Poppins py-1 flex">Swaminarayan Wadi, Rughnathpura Main Road, Opp. Man Mohak Ice Cream, Surat, Gujarat.</p>
+                    <p class="text-black font-medium text-lg md:text-xl font-Poppins py-1">info@techrenuka.com</p>
+                    <p class="text-black font-medium text-lg md:text-xl font-Poppins py-1">+91 1234567890</p>
                 </div>
                 <div class="flex mx-auto gap-5">
                     <!-- Facebook -->
@@ -89,7 +89,7 @@
                     <label for="Message">Message</label>
                     <textarea name="message" rows="7" class="border-[1px] border-gray-500 rounded-md px-3 py-1 w-full" placeholder="type message..."></textarea>
                 </div>
-                <button type="submit" class="bg-blue-800 py-2 px-8 text-white font-bold font-Glory text-lg hover:bg-orange-500 rounded-lg">Submit</button>
+                <button type="submit" class="bg-blue-800 py-2 px-8 text-white font-bold font-Poppins text-lg hover:bg-orange-500 rounded-lg">Submit</button>
             </div>
         </div>
         <!-- Contact Form End -->

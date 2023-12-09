@@ -6,6 +6,11 @@ import store from './store'
 //Globally Install Tailwind CSS
 import './tailwind/app.css'
 
+//Splide
+import VueSplide from '@splidejs/vue-splide';
+
+Vue.use(VueSplide);
+
 /* import the fontawesome core */
 import { library } from '@fortawesome/fontawesome-svg-core'
 
@@ -14,11 +19,6 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
 import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
-
-//Splide
-import VueSplide from '@splidejs/vue-splide';
-
-Vue.use(VueSplide);
 
 /* add icons to the library */
 library.add(faUserSecret)

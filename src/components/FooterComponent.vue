@@ -5,8 +5,8 @@
             <div class="md:flex md:px-28 md:pt-12 md:gap-24 md:mx-auto pt-12 px-5">
             <div class="flex-col">
                 <div class="md:w-[300px]">
-                <h1 class="text-white text-4xl font-bold font-Glory py-3">TECH RENUKA</h1>
-                <p class="text-white font-Glory text-base font-medium">We build your ideas into reality! You got some challenging problem, we're are here to help you. :)</p>
+                <h1 class="text-white text-4xl font-bold font-Poppins py-3">TECH RENUKA</h1>
+                <p class="text-white font-Poppins text-base font-medium">We build your ideas into reality! You got some challenging problem, we're are here to help you. :)</p>
                 </div>
                 <div class="flex mx-auto gap-5 py-10">
                 <!-- Facebook -->
@@ -51,12 +51,12 @@
                 </div>
             </div>
             <div class="lg:pt-5">
-                <h2 class="text-xl text-white font-Glory font-bold">Contect Info</h2>
-                <p class="flex-wrap text-white font-Glory py-2">Swaminarayan Wadi, Rughnathpura Main Road, Opp. Man Mohak Ice Cream, Surat, Gujarat.</p>
-                <p class="flex-wrap text-white font-Glory">E-mail : info@techrenuka.com</p>
+                <h2 class="text-xl text-white font-Poppins font-bold">Contect Info</h2>
+                <p class="flex-wrap text-white font-Poppins py-2">Swaminarayan Wadi, Rughnathpura Main Road, Opp. Man Mohak Ice Cream, Surat, Gujarat.</p>
+                <p class="flex-wrap text-white font-Poppins">E-mail : info@techrenuka.com</p>
             </div>
             </div>
-            <p class="md:py-3 pt-5 text-center text-white font-Glory font-nnormal tracking-wider">Copyright 2023 © Tech Renuka Solution LLP.</p>
+            <p class="md:py-3 pt-5 text-center text-white font-Poppins font-nnormal tracking-wider">Copyright 2023 © Tech Renuka Solution LLP.</p>
         </footer>
     </div>
 </template>

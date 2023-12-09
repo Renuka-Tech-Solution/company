@@ -5,7 +5,7 @@
     <!-- Navbar End -->
 
     <!-- Description Start -->
-    <div class="lg:flex h-[100vh] md:h-[500px] md:w-[100vw] lg:h-[350px] lg:w-[100vw] my-10 mx-10 lg:mx-10 lg:my-10">
+    <div class="lg:flex h-[100vh] md:h-[500px] md:w-[100vw] lg:h-[35rem] lg:w-[100vw] my-10 mx-10 lg:mx-10 lg:mt-40">
         <div class="flex-wrap py-14 px-10 sm:py-8 md:mx-10 md:px-5 lg:px-0">
             <h1 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-black mx-auto">Opportunities for you</h1>
             <p class="text-xl lg:text-2xl font-semibold text-black my-4">We believes in working as a team of Professionals who acts and works responsibly for its clients.</p>
@@ -18,7 +18,7 @@
     <!-- Career Description Start -->
     <div class="bg-gray-100 py-10 justify-center item-center">
         <div class="flex-wrap mx-12 mb-3">
-          <h1 class="font-Glory text-center font-bold text-blue-900 text-3xl pb-3 md:pb-2 sm:text-4xl lg:text-5xl lg:pb-2">Our Job Offers</h1>
+          <h1 class="font-Poppins text-center font-bold text-blue-900 text-3xl pb-3 md:pb-2 sm:text-4xl lg:text-5xl lg:pb-2">Our Job Offers</h1>
           <p class="text-center font-semibold text-lg md:text-xl">Join over in The Future of Work, The easiest way to get your new job.</p>
         </div>
         <!-- <div class="mx-12 sm:grid sm:grid-cols-2 sm:gap-4 md:grid md:grid-cols-2 md:gap-5 lg:grid lg:grid-cols-3 lg:gap-4 lg:px-16 lg:py-8"> -->

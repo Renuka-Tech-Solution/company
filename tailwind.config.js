@@ -5,7 +5,9 @@ module.exports = {
     extend: {
       fontFamily: {
         "Open-Sans": ['Open Sans', 'sans-serif'],
-        "Glory":['Glory', 'sans-serif']
+        "Glory": ['Glory', 'sans-serif'],
+        "Montserrat": ['Montserrat', 'sans-serif'],
+        'Poppins': ['Poppins', 'sans-serif']
       },
       backgroundImage: {
         'companyBg': "url('~@/assets/video/Iconic Online Marketing Background.mp4')",
