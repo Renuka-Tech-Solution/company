@@ -1949,6 +1949,10 @@ video {
     background-color: transparent;
   }
 
+  .md\:bg-none {
+    background-image: none;
+  }
+
   .md\:px-14 {
     padding-left: 3.5rem;
     padding-right: 3.5rem;

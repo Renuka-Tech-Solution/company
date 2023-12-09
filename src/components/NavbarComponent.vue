@@ -3,7 +3,7 @@
     <!-- Navbar -->
       <nav
         :class="{'sticky': isSticky}" @scroll="handleScroll"
-        class="md:px-9 p-3 md:flex md:items-center md:justify-between fixed z-10 w-full top-0 md:fixed md:w-full md:top-0"
+        class="bg-white md:bg-transparent md:px-9 p-3 md:flex md:items-center md:justify-between fixed z-10 w-full top-0 md:fixed md:w-full md:top-0"
       >
         <div class="flex item-center justify-between relative">
           <img :src="require('../assets/image/tech-renuka-logo.png')" class="w-auto h-14 md:h-16" >
@@ -152,7 +152,7 @@ export default {
   position: fixed;
   top: 0; 
   width: 100%;
-  background-color: white;
+  background-color: white !important;
   z-index: 1000;
   color: black !important;
 }
@@ -161,14 +161,13 @@ export default {
   color: blue !important; 
 }
 
-/* @media only screen and (min-width: 640px){
+@media only screen and (max-width: 640px){
   .sticky {
     position:fixed !important;
-    top: 0; 
     width: 100%;
     background-color: white;
     z-index: 1000;
     color: black !important;
   }
-} */
+}
 </style>
