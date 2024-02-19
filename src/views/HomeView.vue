@@ -21,22 +21,20 @@
           />
         </video>
         <div class="relative items-center justify-center mx-12 mt-40 lg:mx-20 lg:mt-56">
-          <h2
+          <!-- <h2
             class="cmpLine1 text-2xl animate-fade-in md:text-3xl text-white font-Poppins font-medium text-center"
           >
             Expert waiting for you
-          </h2>
+          </h2> -->
           <h1
-            class="cmpLine2 text-3xl animate-fade-in md:text-5xl text-white font-Poppins font-bold text-center py-2 lg:px-10"
+            class="cmpLine2 text-3xl md:text-4xl text-white font-Poppins font-bold text-center py-3 lg:px-10"
           >
-            All in one ERP solution for your business
+          &#10077; Transforming Tomorrow with Today's Solutions. <br> Your IT, Our Expertise – Igniting Growth. &#10078;
           </h1>
           <p
-            class="cmpLine3 flex-wrap animate-txtfade-in text-base mx-auto md:text-2xl text-white font-Poppins font-medium text-center"
+            class="cmpLine3 flex-wrap text-base mx-auto md:text-2xl text-white font-Poppins font-semibold text-center"
           >
-            Are you looking for management? We come up with full-fill your
-            needs,as per your requirement we provide the best solution for your
-            business which accomplishes your motives.
+            Code, Create, Connect
           </p>
         </div>
         <!-- <div class="relative flex flex-col flex-wrap mx-auto item-center">
@@ -75,7 +73,7 @@
           <!-- <div class=""> -->
           <img
             :src="require('../assets/image/web-programming.png')"
-            class="bg-gray-100 group-hover:bg-white pt-5 pb-[15%] p-4 h-32 w-24 sm:h-32 sm:w-24 sm:pb-[10%] md:h-40 md:w-32 md:pb-[17%] lg:pb-[17%] lg:pt-[6%] xl:w-28 xl:pb-[12%] xl:pt-[5%] flex ml-8 mb-5 rounded-b-[65px]"
+            class="bg-gray-100 group-hover:bg-white pt-5 pb-[15%] p-4 h-32 w-24 sm:h-32 sm:w-24 sm:pb-[10%] md:h-40 md:w-32 md:pb-[17%] lg:pb-[17%] lg:pt-[6%] xl:w-24 xl:h-28 xl:pb-[10%] xl:pt-[3%] flex ml-8 mb-5 rounded-b-[55px]"
           />
           <!-- </div> -->
           <h1
@@ -84,7 +82,7 @@
             Web Design & Development
           </h1>
           <p
-            class="text-left text-lg font-Poppins font-medium mx-8 my-5 pb-5 group-hover:text-white"
+            class="text-left text-lg font-Poppins font-medium mx-8 my-4 pb-3 group-hover:text-white"
           >
             We believe in your trust!! Start your business with our expert
             service which helps you with business-related web design and
@@ -98,7 +96,7 @@
           <!-- <div class=""> -->
           <img
             :src="require('../assets/image/api.png')"
-            class="bg-gray-100 group-hover:bg-white pt-5 pb-[17%] p-4 h-32 w-24 sm:h-32 sm:w-24 sm:pt-0 sm:pb-[9%] md:h-40 md:w-32 md:pb-[19%] md:pt-[7%] lg:pb-[21%] lg:pt-[6%] xl:w-28 xl:pb-[13%] xl:pt-[5%] flex ml-8 mb-5 rounded-b-[65px]"
+            class="bg-gray-100 group-hover:bg-white pt-5 pb-[17%] p-4 h-32 w-24 sm:h-32 sm:w-24 sm:pt-0 sm:pb-[9%] md:h-40 md:w-32 md:pb-[19%] md:pt-[7%] lg:pb-[21%] lg:pt-[6%] xl:w-24 xl:h-28 xl:pb-[12%] xl:pt-[3%] flex ml-8 mb-5 rounded-b-[55px]"
           />
           <!-- </div> -->
           <h1
@@ -107,7 +105,7 @@
             APIs Development
           </h1>
           <p
-            class="text-left text-lg font-Poppins font-medium mx-8 my-5 pb-5 group-hover:text-white"
+            class="text-left text-lg font-Poppins font-medium mx-8 my-4 pb-3 group-hover:text-white"
           >
             Are you an mobile application developer or a front end developer? Or
             you already have a front-end developer and looking for backend API
@@ -121,7 +119,7 @@
           <!-- <div class=""> -->
           <img
             :src="require('../assets/image/upgrade.png')"
-            class="bg-gray-100 group-hover:bg-white pt-5 pb-[11%] p-4 h-32 w-24 sm:h-32 sm:w-24 sm:pt-0 sm:pb-[9%] md:h-40 md:w-32 md:pb-[13%] md:pt-[6%] lg:pb-[17%] lg:pt-[6%] xl:w-28 xl:pb-[12%] xl:pt-[5%] flex ml-8 mb-5 rounded-b-[65px]"
+            class="bg-gray-100 group-hover:bg-white pt-5 pb-[11%] p-4 h-32 w-24 sm:h-32 sm:w-24 sm:pt-0 sm:pb-[9%] md:h-40 md:w-32 md:pb-[13%] md:pt-[6%] lg:pb-[17%] lg:pt-[6%] xl:w-24 xl:h-28 xl:pb-[10%] xl:pt-[3%] flex ml-8 mb-5 rounded-b-[55px]"
           />
           <!-- </div> -->
           <h1
@@ -130,7 +128,7 @@
             Laravel Upgrades
           </h1>
           <p
-            class="text-left text-lg font-Poppins font-medium mx-8 my-5 pb-5 group-hover:text-white"
+            class="text-left text-lg font-Poppins font-medium mx-8 my-4 pb-3 group-hover:text-white"
           >
             Already having a Laravel application with you? And looking for help
             in upgrading it? or maybe optimization; Tech Renuka is at your
@@ -145,7 +143,7 @@
           <!-- <div class=""> -->
           <img
             :src="require('../assets/image/source-code.png')"
-            class="bg-gray-100 group-hover:bg-white pt-5 pb-[14%] p-4 h-32 w-24 sm:h-32 sm:w-24 sm:pt-0 sm:pb-[9%] md:h-40 md:w-32 md:pb-[17%] md:pt-[6%] lg:pb-[20%] lg:pt-[6%] xl:w-28 xl:pb-[11%] xl:pt-[5%] flex ml-8 mb-5 rounded-b-[65px]"
+            class="bg-gray-100 group-hover:bg-white pt-5 pb-[14%] p-4 h-32 w-24 sm:h-32 sm:w-24 sm:pt-0 sm:pb-[9%] md:h-40 md:w-32 md:pb-[17%] md:pt-[6%] lg:pb-[20%] lg:pt-[6%] xl:w-24 xl:h-28 xl:pb-[10%] xl:pt-[2%] flex ml-8 mb-5 rounded-b-[55px]"
           />
           <!-- </div> -->
           <h1
@@ -154,11 +152,56 @@
             Code Optimization
           </h1>
           <p
-            class="text-left text-lg font-Poppins font-medium mx-8 my-5 pb-5 group-hover:text-white"
+            class="text-left text-lg font-Poppins font-medium mx-8 my-4 pb-3 group-hover:text-white"
           >
             Already having a Laravel App? But you are tired with it's
             sluggishness? Stay assured, Tech Renuka is here! We can assist you
             improve its performance by at least 2 - 3 times.
+          </p>
+        </div>
+        <div
+          class="group servicesCard flex-wrap bg-white hover:bg-[#1E40AF] shadow-xl shadow-slate-300 rounded-lg"
+        >
+          <!-- <div class="bg-purple-800 h-2 mx-auto md:mx-auto rounded-tl-lg rounded-tr-lg"></div> -->
+          <!-- <div class=""> -->
+          <img
+            :src="require('../assets/image/shopify.png')"
+            class="bg-gray-100 group-hover:bg-white pt-5 pb-[14%] p-4 h-32 w-24 sm:h-32 sm:w-24 sm:pt-0 sm:pb-[9%] md:h-40 md:w-32 md:pb-[17%] md:pt-[6%] lg:pb-[20%] lg:pt-[6%] xl:w-24 xl:h-28 xl:pb-[9%] xl:pt-[2%] flex ml-8 mb-5 rounded-b-[55px]"
+          />
+          <!-- </div> -->
+          <h1
+            class="text-left ml-8 font-Poppins text-2xl font-semibold group-hover:text-white"
+          >
+            Shopify
+          </h1>
+          <p
+            class="text-left text-lg font-Poppins font-medium mx-8 my-4 pb-3 group-hover:text-white"
+          >
+            "Transform your vision into a captivating online store with our Shopify experts. 
+            From seamless setup to stunning theme customization, we ensure your products shine 
+            in a visually appealing and fully functional e-commerce space."
+          </p>
+        </div>
+        <div
+          class="group servicesCard flex-wrap bg-white hover:bg-[#1E40AF] shadow-xl shadow-slate-300 rounded-lg"
+        >
+          <!-- <div class="bg-purple-800 h-2 mx-auto md:mx-auto rounded-tl-lg rounded-tr-lg"></div> -->
+          <!-- <div class=""> -->
+          <img
+            :src="require('../assets/image/custom-website.png')"
+            class="bg-gray-100 group-hover:bg-white pt-5 pb-[14%] p-4 h-32 w-24 sm:h-32 sm:w-24 sm:pt-0 sm:pb-[9%] md:h-40 md:w-32 md:pb-[17%] md:pt-[6%] lg:pb-[20%] lg:pt-[6%] xl:w-24 xl:h-28 xl:pb-[11%] xl:pt-[2%] flex ml-8 mb-5 rounded-b-[55px]"
+          />
+          <!-- </div> -->
+          <h1
+            class="text-left ml-8 font-Poppins text-2xl font-semibold group-hover:text-white"
+          >
+            Custom Website
+          </h1>
+          <p
+            class="text-left text-lg font-Poppins font-medium mx-8 my-4 pb-3 group-hover:text-white"
+          >
+            "Efficient and responsive website code featuring modern design elements, 
+            optimized for seamless user experience and fast loading times."
           </p>
         </div>
       </div>
@@ -741,11 +784,11 @@ export default {
   mounted() {
     const tl = gsap.timeline();
     // Company Info-------------------------------
-    tl.from(".cmpLine1", {
-      y: 50,
-      scrub: 1,
-      duration: 1,
-    });
+    //tl.from(".cmpLine1", {
+    //  y: 50,
+    //  scrub: 1,
+    //  duration: 1,
+    //});
     tl.from(".cmpLine2", {
       y: 50,
       opacity: 0,
