@@ -1,14 +1,14 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import ServicesView from '../views/ServicesView.vue'
-import AboutView from '../views/AboutView.vue'
-import ContactView from '../views/ContactView.vue'
-import CareerView from '../views/CareerView.vue'
-import ApplyNowView from '../views/ApplyNowView.vue'
-import PortfolioView from '../views/PortfolioView.vue'
-// import FAQsView from '../views/FAQsView.vue'
-import Test from '../views/Test.vue'
+import HomeView from '@/views/HomeView.vue'
+import ServicesView from '@/views/ServicesView.vue'
+import AboutView from '@/views/AboutView.vue'
+import ContactView from '@/views/ContactView.vue'
+import CareerView from '@/views/CareerView.vue'
+import ApplyNowView from '@/views/ApplyNowView.vue'
+import PortfolioView from '@/views/PortfolioView.vue'
+// import FAQsView from '@/views/FAQsView.vue'
+import Test from '@/views/Test.vue'
 
 Vue.use(VueRouter)
 
