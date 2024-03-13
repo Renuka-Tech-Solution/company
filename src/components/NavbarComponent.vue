@@ -6,8 +6,8 @@
         class="bg-white md:bg-transparent md:px-9 p-3 md:flex md:items-center md:justify-between fixed z-10 w-full top-0 md:fixed md:w-full md:top-0"
       >
         <div class="flex item-center justify-between relative">
-          <img :src="require('../assets/image/Company Logo Black.png')" class="w-auto h-14 md:h-16" v-if="isSticky">
-          <img :src="require('../assets/image/Company Logo White.png')" class="w-auto h-14 md:h-[67px]" v-else>
+          <img :src="require('../assets/image/Black.png')" class="w-auto h-14 md:h-16" v-if="isSticky">
+          <img :src="require('../assets/image/White.png')" class="w-auto h-14 md:h-[67px]" v-else>
           <span
             class="text-4xl text-black cursor-pointer mx-2 md:hidden flex items-center"
             @click="toggleMenu"
@@ -85,13 +85,6 @@
               CONTACT
             </router-link>
           </li>
-          <!-- <li class="lg:mx-4 md:mx-3 my-4 md:my-0">
-            <router-link to="/test" :class="{ 'activeMenu': currentPath === '/test', 'sticky': isSticky  }"
-              class="relative text-black md:text-white text-lg sm:text-base lg:text-base font-Poppins font-semibold hover:text-blue-700"
-            >
-                TEST 
-              </router-link>
-          </li> -->
           <!-- <li class="lg:mx-4 md:mx-3 my-4 md:my-0">
                 <router-link to="/faqs" :class="{ 'activeMenu': currentPath === '/faqs', 'sticky': isSticky  }"
               class="relative text-black md:text-white text-lg sm:text-base lg:text-base font-Poppins font-semibold hover:text-blue-700"
