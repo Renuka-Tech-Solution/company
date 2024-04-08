@@ -1,14 +1,14 @@
 <template>
   <li class="nav-item dropdown dropdown-mega">
     <a
-      :class="`nav-link dropdown-toggle ${isActiveMenu(demos) ? 'active' : ''}`"
+      :class="`nav-link ${isActiveMenu(demos) ? 'active' : ''}`"
       href="#"
       data-bs-toggle="dropdown"
       data-bs-auto-close="outside"
       aria-expanded="false"
-      >Demos</a
+      >Welcome</a
     >
-    <ul class="dropdown-menu mega-menu mega-menu-dark mega-menu-img">
+    <!-- <ul class="dropdown-menu mega-menu mega-menu-dark mega-menu-img">
       <li class="mega-menu-content mega-menu-scroll">
         <ul
           class="row row-cols-1 row-cols-lg-6 gx-0 gx-lg-4 gy-lg-2 list-unstyled"
@@ -31,14 +31,14 @@
             </nuxt-link>
           </li>
         </ul>
-        <!--/.row -->
+        
         <span class="d-none d-lg-flex"
           ><i class="uil uil-direction"></i
           ><strong>Scroll to view more</strong></span
         >
       </li>
-      <!--/.mega-menu-content-->
-    </ul>
+    
+    </ul> -->
     <!--/.dropdown-menu -->
   </li>
   <li class="nav-item dropdown">

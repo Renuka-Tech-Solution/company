@@ -1,16 +1,26 @@
 <template>
-  <div class="bg-soft-primary grape-theme space-font">
+  <div class="yellow-theme thicccboi-font">
     <div class="content-wrapper">
-      <HeadersHeader39 />
-      <PreviewHero />
-      <PreviewDemos />
-      <PreviewBotomBanner />
+      <CompanyHeader />
+      <HomesHome1Hero />
+      <HomesHome1Features2 />
+      <HomesHome1Cta />
+      <HomesHome1Process />
+      <HomesHome1Team />
+      <HomesHome1Features />
+      <HomesHome1Testimonials />
+      <HomesHome1Pricing />
     </div>
+    <FootersFooter1 />
   </div>
 </template>
+
 <script setup>
 useSeoMeta({
-  title: "Preview page || Sandbox - Modern & Multipurpose Nuxtjs Template",
+  title: "Home 1 || Sandbox - Modern & Multipurpose Nuxtjs Template",
   description: "Sandbox - Modern & Multipurpose Nuxtjs Template",
 });
+import CompanyHeader from "~/components/headers/Company.vue";
 </script>
+
+<style lang="scss"></style>
