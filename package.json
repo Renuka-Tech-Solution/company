@@ -1,36 +1,17 @@
 {
-  "name": "tech_renuka",
-  "version": "0.1.0",
-  "private": true,
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "Sandbox - Modern & Multipurpose Tailwind CSS Template",
+  "main": "index.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "watch": "tailwindcss -i ./src/tailwind/style.css -o ./src/tailwind/app.css --watch"
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch"
   },
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.5.1",
-    "@fortawesome/free-brands-svg-icons": "^6.4.2",
-    "@fortawesome/free-regular-svg-icons": "^6.4.2",
-    "@fortawesome/free-solid-svg-icons": "^6.5.1",
-    "@fortawesome/vue-fontawesome": "^2.0.10",
-    "@glidejs/glide": "^3.6.0",
-    "@splidejs/vue-splide": "^0.6.12",
-    "core-js": "^3.8.3",
-    "gsap": "^3.12.2",
-    "swiper": "^10.3.1",
-    "vue": "^2.7.14",
-    "vue-router": "^3.5.1",
-    "vue-slick": "^1.2.0",
-    "vue-slick-carousel": "^1.0.6",
-    "vuex": "^3.6.2"
-  },
+  "keywords": [],
+  "author": "ibtheme",
+  "license": "ISC",
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^6.5.1",
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-plugin-router": "~5.0.0",
-    "@vue/cli-plugin-vuex": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "tailwindcss": "^3.3.3",
-    "vue-template-compiler": "^2.6.14"
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
   }
 }
