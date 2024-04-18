@@ -100,18 +100,18 @@ export const steps3 = [
 export const steps4 = [
   {
     number: "01",
-    title: "Collect Ideas",
-    description: "Nulla vitae elit libero pharetra augue dapibus.",
+    title: "Plan",
+    description: "Outline website goals, target audience, and content.",
   },
   {
     number: "02",
-    title: "Data Analysis",
-    description: "Vivamus sagittis lacus vel augue laoreet.",
+    title: "Design",
+    description: "Create wireframes and visual mockups for layout.",
   },
   {
     number: "03",
-    title: "Finalize Product",
-    description: "Cras mattis consectetur purus sit amet.",
+    title: "Develop",
+    description: "Code website functionality and features.",
   },
 ];
 

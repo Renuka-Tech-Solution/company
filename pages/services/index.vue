@@ -1,6 +1,6 @@
 <template>
   <div class="content-wrapper">
-    <HeadersHeader1 />
+    <HeadersServices/>
     <ServicesService1Hero />
     <section class="wrapper bg-light angled upper-end">
       <div class="container pb-14 pb-md-16">
@@ -17,8 +17,8 @@
 
 <script setup>
 useSeoMeta({
-  title: "Services 1 || Sandbox - Modern & Multipurpose Nuxtjs Template",
-  description: "Sandbox - Modern & Multipurpose Nuxtjs Template",
+  title: "Services",
+  description: "",
 });
 </script>
 

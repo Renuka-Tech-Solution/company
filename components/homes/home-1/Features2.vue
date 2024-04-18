@@ -5,7 +5,7 @@
         <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
           <h2 class="fs-15 text-uppercase text-muted mb-3">What We Do?</h2>
           <h3 class="display-4 mb-10 px-xl-10">
-            The service we offer is specifically designed to meet your needs.
+            The service we offer is specifically designed to meet client's needs.
           </h3>
         </div>
         <!-- /column -->
@@ -26,7 +26,7 @@
           <div
             v-for="service in services"
             :key="service.id"
-            class="col-md-6 col-xl-3"
+            class="col-md-6 col-xl-4"
           >
             <div class="card shadow-lg">
               <div class="card-body">
@@ -39,15 +39,16 @@
                 <h4>{{ service.title }}</h4>
                 <p class="mb-2">{{ service.description }}</p>
                 <!-- Skipping link property -->
-                <a href="#" :class="['more', 'hover', service.linkColorClass]"
+                <!-- <a href="#" :class="['more', 'hover', service.linkColorClass]"
                   >Learn More</a
-                >
+                > -->
               </div>
               <!--/.card-body -->
             </div>
             <!--/.card -->
           </div>
           <!--/column -->
+          <nuxt-link to="/services" class="btn btn-sm btn-primary rounded-pill w-20 m-auto">More Services</nuxt-link>
         </div>
         <!--/.row -->
       </div>

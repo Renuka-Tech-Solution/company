@@ -1,19 +1,23 @@
 export const faq1 = [
   {
     id: 1,
-    question: `Can I cancel my subscription?`,
-    answer: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel.`,
+    question: `Delivering Excellence: Our Commitment to Quality`,
+    answer: `we commit to giving the best quality to the client, with high quality and safety, with the promise that our works fully secured and very innovative.`,
   },
   {
     id: 2,
-    question: `
-        Which payment methods do you accept?`,
-    answer: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel.`,
+    question: `Skills & Expertise: Our Proficiencies`,
+    answer: `Our development team is well experienced to fulfill client's demands. We also keep in mind that our quality is always on a set which is also loved by our client's.`,
   },
   {
     id: 3,
-    question: `How can I manage my Account?`,
-    answer: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel.`,
+    question: `Wide range of services`,
+    answer: `A wide range of services covers your whole business project in one place. We ensure the best quality and fastest delivery for your project work.`,
+  },
+  {
+    id: 4,
+    question: `Quick Support`,
+    answer: `Support is valuable if we provide on-time support when the client is needed. We believe in quick support which may impact your business for development.`,
   },
 ];
 

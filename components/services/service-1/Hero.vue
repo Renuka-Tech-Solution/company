@@ -7,13 +7,14 @@
           <p class="lead px-lg-7 px-xl-7 px-xxl-6">
             We are a creative company that focuses on establishing
             <span class="underline">long-term relationships</span> with
-            customers.
+            client's.
           </p>
         </div>
         <!-- /column -->
       </div>
       <!-- /.row -->
     </div>
+    
     <!-- /.container -->
   </section>
 </template>

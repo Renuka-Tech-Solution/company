@@ -14,7 +14,7 @@
             }"
             :key="index"
           >
-            <div class="card-body p-6">
+            <div class="card-body p-4">
               <div class="d-flex flex-row">
                 <div>
                   <span
@@ -36,20 +36,15 @@
         <div class="col-lg-6">
           <h2 class="fs-16 text-uppercase text-muted mb-3">Our Strategy</h2>
           <h3 class="display-4 mb-5">
-            Here are 3 working steps to organize our business projects.
+            Here are 3 working steps to build your website.
           </h3>
           <p>
-            Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
-            vestibulum. Etiam porta sem malesuada magna mollis euismod. Nullam
-            id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus
-            eget urna mollis.
+           Crafting Your Digital Presence: Discover how our strategic approach transforms your vision into a captivating website. From design concepts to user experience, we tailor solutions for maximum impact and engagement.
           </p>
           <p class="mb-6">
-            Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id
-            ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed
-            consectetur.
+            We customize features and functionalities to match your unique needs, delivering a website that stands out and performs.
           </p>
-          <a href="#" class="btn btn-primary rounded-pill mb-0">Learn More</a>
+          <!-- <a href="#" class="btn btn-primary rounded-pill mb-0">Learn More</a> -->
         </div>
         <!--/column -->
       </div>
@@ -61,8 +56,8 @@
           <figure>
             <nuxt-img
               class="w-auto"
-              src="/assets/img/illustrations/i6.png"
-              srcset="/assets/img/illustrations/i6@2x.png 2x"
+              src="/assets/img/illustrations/home-i6.png"
+              srcset="/assets/img/illustrations/home-i6.png"
               alt="photo"
             />
           </figure>
@@ -70,8 +65,8 @@
         <!--/column -->
         <div class="col-lg-5">
           <h2 class="fs-16 text-uppercase text-muted mb-3">Why Choose Us?</h2>
-          <h3 class="display-4 mb-7">
-            We bring solutions to make life easier for our clients.
+          <h3 class="display-5 mb-7">
+            We transform client visions into virtual reality.
           </h3>
           <div class="accordion accordion-wrapper" id="accordionExample-1">
             <div

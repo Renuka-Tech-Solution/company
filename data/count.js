@@ -5,10 +5,10 @@ export const counters = [
 ];
 
 export const counters2 = [
-  { count: 7518, label: "Completed Projects" },
-  { count: 3472, label: "Satisfied Customers" },
-  { count: 2184, label: "Expert Employees" },
-  { count: 4523, label: "Awards Won" },
+  { count: 400, label: "Completed Projects", iconSrc: "/assets/img/icons/lineal/award-2.svg" },
+  { count: 250, label: "Satisfied Customers" },
+  { count: 4, label: "Expert Employees" },
+  { count: 4, label: "Certificates" },
 ];
 
 export const counters3 = [

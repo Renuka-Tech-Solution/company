@@ -7,11 +7,13 @@
 
 <script setup>
 const menuItems = ref([
+  { id: 1, text: "Shopify", link: "/shopify" },
+  { id: 2, text: "Services", link: "/services" },
+  { id: 3, text: "Portfolio", link: "/portfolio" },
   { id: 1, text: "About Us", link: "/about" },
-  { id: 2, text: "Our Story", link: "/blog" },
-  { id: 3, text: "Projects", link: "/projects" },
-  { id: 4, text: "Terms of Use", link: "/terms" },
-  { id: 5, text: "Privacy Policy", link: "/terms" },
+  { id: 3, text: "Contact", link: "/contact" },
+
+  // { id: 4, text: "Our Policy", link: "/terms" },
 ]);
 </script>
 

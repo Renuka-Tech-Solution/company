@@ -1,7 +1,7 @@
 <template>
   <section
     class="wrapper image-wrapper bg-image bg-overlay"
-    style="background-image: url(/assets/img/photos/bg1.jpg)"
+    style="background-image: url(/assets/img/photos/shopify-bg1.jpg)"
   >
     <div class="container py-18 text-center">
       <div class="row">

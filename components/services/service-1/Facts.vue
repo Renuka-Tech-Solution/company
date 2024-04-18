@@ -3,8 +3,7 @@
     <div class="col-12 mt-n20">
       <figure class="rounded">
         <nuxt-img
-          src="/assets/img/photos/about5.jpg"
-          srcset="/assets/img/photos/about5@2x.jpg 2x"
+          src="/assets/img/photos/services-hero.png"
           alt="photo"
         />
       </figure>
@@ -29,9 +28,10 @@
                       :min="50"
                       :max="counter.count"
                       :time="500"
-                    />
+                    />+
                     <!-- Component for counting number with intersetion observer from omponents>common>counter -->
                   </h3>
+                  
 
                   <p>{{ counter.label }}</p>
                 </div>

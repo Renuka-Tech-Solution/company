@@ -120,48 +120,122 @@ export const features4 = [
 ];
 
 export const checklistItems = [
-  { text: "Aenean eu leo quam pellentesque." },
-  { text: "Nullam quis risus eget urna mollis." },
-  { text: "Donec id elit non mi porta gravida." },
-  { text: "Fusce dapibus tellus ac commodo." },
-  { text: "Cras justo odio dapibus ac facilisis in." },
+  { text: "Effective Solutions" },
+  { text: "Stress Reduction" },
+  { text: "Spending Control" },
+  { text: "Financial Control" },
 ];
 
 export const services = [
   {
     id: 1,
-    iconSrc: "/assets/img/icons/lineal/search-2.svg",
+    iconSrc: "/assets/img/icons/lineal/shopify-store.svg",
     iconColorClass: "text-yellow",
-    title: "SEO Services",
+    title: "Shopify Store Development",
     description:
-      "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.",
-    linkColorClass: "link-yellow",
+      "Expert Shopify store development for seamless online retail experiences that drive sales and growth.",
+    linkColorClass: "link-green",
   },
   {
     id: 2,
     iconSrc: "/assets/img/icons/lineal/browser.svg",
     iconColorClass: "text-red",
-    title: "Web Design",
+    title: "Web Design & Development",
     description:
-      "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.",
+      "Start your business with our expert service which helps you with business-related web design and development solutions.",
     linkColorClass: "link-red",
   },
   {
     id: 3,
-    iconSrc: "/assets/img/icons/lineal/chat-2.svg",
+    iconSrc: "/assets/img/icons/lineal/shopify-theme.svg",
     iconColorClass: "text-green",
-    title: "Social Engagement",
+    title: "Shopify Theme Customization",
     description:
-      "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.",
+      "Personalized Shopify theme customization elevating E-Commerce Stores with unique designs and functionalities tailored to individual brands.",
     linkColorClass: "link-green",
   },
   {
     id: 4,
-    iconSrc: "/assets/img/icons/lineal/megaphone.svg",
+    iconSrc: "/assets/img/icons/lineal/api.svg",
     iconColorClass: "text-blue",
-    title: "Content Marketing",
+    title: "API Development",
     description:
-      "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.",
+      "Are you an mobile application developer or a front end developer? Or you already have a front-end developer and looking for backend API support? We are right at your service with our expertise in Laravel!",
+    linkColorClass: "link-blue",
+  },
+  {
+    id: 5,
+    iconSrc: "/assets/img/icons/lineal/laravel.svg",
+    iconColorClass: "text-blue",
+    title: "laravel Upgrades & Development",
+    description:
+      "Already having a Laravel application with you? And looking for help in upgrading it? or maybe optimization; Tech Renuka is at your service! Our Certified Team of Developers would love to help you out!",
+    linkColorClass: "link-blue",
+  },
+  {
+    id: 6,
+    iconSrc: "/assets/img/icons/lineal/code-optimization.svg",
+    iconColorClass: "text-blue",
+    title: "Code Optimization",
+    description:
+      "Already having a Laravel application with you? And looking for help in upgrading it? or maybe optimization; Tech Renuka is at your service! Our Certified Team of Developers would love to help you out!",
+    linkColorClass: "link-blue",
+  },
+];
+
+export const servicesPage = [
+  {
+    id: 1,
+    iconSrc: "/assets/img/icons/lineal/shopify-store.svg",
+    iconColorClass: "text-yellow",
+    title: "Shopify Store Development",
+    description:
+      "Expert Shopify store development for seamless online retail experiences that drive sales and growth.",
+    linkColorClass: "link-green",
+  },
+  {
+    id: 2,
+    iconSrc: "/assets/img/icons/lineal/browser.svg",
+    iconColorClass: "text-red",
+    title: "Web Design & Development",
+    description:
+      "Start your business with our expert service which helps you with business-related web design and development solutions.",
+    linkColorClass: "link-red",
+  },
+  {
+    id: 3,
+    iconSrc: "/assets/img/icons/lineal/shopify-theme.svg",
+    iconColorClass: "text-green",
+    title: "Shopify Theme Customization",
+    description:
+      "Personalized Shopify theme customization elevating E-Commerce Stores with unique designs and functionalities tailored to individual brands.",
+    linkColorClass: "link-green",
+  },
+  {
+    id: 4,
+    iconSrc: "/assets/img/icons/lineal/api.svg",
+    iconColorClass: "text-blue",
+    title: "API Development",
+    description:
+      "Are you an mobile application developer or a front end developer? Or you already have a front-end developer and looking for backend API support? We are right at your service with our expertise in Laravel!",
+    linkColorClass: "link-blue",
+  },
+  {
+    id: 5,
+    iconSrc: "/assets/img/icons/lineal/laravel.svg",
+    iconColorClass: "text-blue",
+    title: "laravel Upgrades & Development",
+    description:
+      "Already having a Laravel application with you? And looking for help in upgrading it? or maybe optimization; Tech Renuka is at your service! Our Certified Team of Developers would love to help you out!",
+    linkColorClass: "link-blue",
+  },
+  {
+    id: 6,
+    iconSrc: "/assets/img/icons/lineal/code-optimization.svg",
+    iconColorClass: "text-blue",
+    title: "Code Optimization",
+    description:
+      "Already having a Laravel application with you? And looking for help in upgrading it? or maybe optimization; Tech Renuka is at your service! Our Certified Team of Developers would love to help you out!",
     linkColorClass: "link-blue",
   },
 ];

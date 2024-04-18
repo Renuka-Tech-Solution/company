@@ -1,15 +1,12 @@
 <template>
   <div class="yellow-theme thicccboi-font">
     <div class="content-wrapper">
-      <CompanyHeader />
+      <HeadersWelcome />
       <HomesHome1Hero />
       <HomesHome1Features2 />
-      <HomesHome1Cta />
       <HomesHome1Process />
       <HomesHome1Team />
       <HomesHome1Features />
-      <HomesHome1Testimonials />
-      <HomesHome1Pricing />
     </div>
     <FootersFooter1 />
   </div>
@@ -17,10 +14,10 @@
 
 <script setup>
 useSeoMeta({
-  title: "Home 1 || Sandbox - Modern & Multipurpose Nuxtjs Template",
-  description: "Sandbox - Modern & Multipurpose Nuxtjs Template",
+  title: "Tech Renuka",
+  description: "Code, Create, Connect",
 });
-import CompanyHeader from "~/components/headers/Company.vue";
+import CompanyHeader from "~/components/headers/Welcome.vue";
 </script>
 
 <style lang="scss"></style>

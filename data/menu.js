@@ -1,3 +1,43 @@
+export const index = [
+  {
+    id: 1,
+    name: "Welcome",
+    route: "/",
+  }
+];
+
+export const shopify = [
+  {
+    id: 1,
+    name: "Shopify",
+    route: "/shopify/index.vue",
+  }
+];
+
+export const services = [
+  {
+    id: 1,
+    name: "Services",
+    route: "/services/index.vue",
+  }
+];
+
+export const about = [
+  {
+    id: 1,
+    name: "About",
+    route: "/about/index.vue",
+  }
+];
+
+export const portfolio = [
+  {
+    id: 1,
+    name: "Portfolio",
+    route: "/portfolio/index.vue",
+  }
+];
+
 export const demos = [
   {
     id: 1,
@@ -107,74 +147,74 @@ export const demos = [
   // ... Repeat for other demos
 ];
 
-export const pages = [
-  {
-    id: 1,
-    label: "Services",
-    route: "#",
-    submenu: [
-      { id: 11, label: "Services I", route: "/services" },
-      { id: 12, label: "Services II", route: "/services2" },
-    ],
-  },
-  {
-    id: 2,
-    label: "About",
-    route: "#",
-    submenu: [
-      { id: 21, label: "About I", route: "/about" },
-      { id: 22, label: "About II", route: "/about2" },
-    ],
-  },
-  {
-    id: 3,
-    label: "Shop",
-    route: "#",
-    submenu: [
-      { id: 31, label: "Shop I", route: "/shop" },
-      { id: 32, label: "Shop II", route: "/shop2" },
-      { id: 33, label: "Product Page", route: "/shop-product" },
-      { id: 34, label: "Shopping Cart", route: "/shop-cart" },
-      { id: 35, label: "Checkout", route: "/shop-checkout" },
-    ],
-  },
-  {
-    id: 4,
-    label: "Contact",
-    route: "#",
-    submenu: [
-      { id: 41, label: "Contact I", route: "/contact" },
-      { id: 42, label: "Contact II", route: "/contact2" },
-      { id: 43, label: "Contact III", route: "/contact3" },
-    ],
-  },
-  {
-    id: 5,
-    label: "Career",
-    route: "#",
-    submenu: [
-      { id: 51, label: "Job Listing I", route: "/career" },
-      { id: 52, label: "Job Listing II", route: "/career2" },
-      { id: 53, label: "Job Description", route: "/career-job" },
-    ],
-  },
-  {
-    id: 6,
-    label: "Utility",
-    route: "#",
-    submenu: [
-      { id: 61, label: "404 Not Found", route: "/404" },
-      { id: 62, label: "Page Loader", route: "/page-loader" },
-      { id: 63, label: "Sign In I", route: "/signin" },
-      { id: 64, label: "Sign In II", route: "/signin2" },
-      { id: 65, label: "Sign Up I", route: "/signup" },
-      { id: 66, label: "Sign Up II", route: "/signup2" },
-      { id: 67, label: "Terms", route: "/terms" },
-    ],
-  },
-  { id: 7, label: "Pricing", route: "/pricing" },
-  { id: 8, label: "One Page", route: "/onepage" },
-];
+// export const pages = [
+//   {
+//     id: 1,
+//     label: "Services",
+//     route: "#",
+//     submenu: [
+//       { id: 11, label: "Services I", route: "/services" },
+//       { id: 12, label: "Services II", route: "/services2" },
+//     ],
+//   },
+//   {
+//     id: 2,
+//     label: "About",
+//     route: "#",
+//     submenu: [
+//       { id: 21, label: "About I", route: "/about" },
+//       { id: 22, label: "About II", route: "/about2" },
+//     ],
+//   },
+//   {
+//     id: 3,
+//     label: "Shop",
+//     route: "#",
+//     submenu: [
+//       { id: 31, label: "Shop I", route: "/shop" },
+//       { id: 32, label: "Shop II", route: "/shop2" },
+//       { id: 33, label: "Product Page", route: "/shop-product" },
+//       { id: 34, label: "Shopping Cart", route: "/shop-cart" },
+//       { id: 35, label: "Checkout", route: "/shop-checkout" },
+//     ],
+//   },
+//   {
+//     id: 4,
+//     label: "Contact",
+//     route: "#",
+//     submenu: [
+//       { id: 41, label: "Contact I", route: "/contact" },
+//       { id: 42, label: "Contact II", route: "/contact2" },
+//       { id: 43, label: "Contact III", route: "/contact3" },
+//     ],
+//   },
+//   {
+//     id: 5,
+//     label: "Career",
+//     route: "#",
+//     submenu: [
+//       { id: 51, label: "Job Listing I", route: "/career" },
+//       { id: 52, label: "Job Listing II", route: "/career2" },
+//       { id: 53, label: "Job Description", route: "/career-job" },
+//     ],
+//   },
+//   {
+//     id: 6,
+//     label: "Utility",
+//     route: "#",
+//     submenu: [
+//       { id: 61, label: "404 Not Found", route: "/404" },
+//       { id: 62, label: "Page Loader", route: "/page-loader" },
+//       { id: 63, label: "Sign In I", route: "/signin" },
+//       { id: 64, label: "Sign In II", route: "/signin2" },
+//       { id: 65, label: "Sign Up I", route: "/signup" },
+//       { id: 66, label: "Sign Up II", route: "/signup2" },
+//       { id: 67, label: "Terms", route: "/terms" },
+//     ],
+//   },
+//   { id: 7, label: "Pricing", route: "/pricing" },
+//   { id: 8, label: "One Page", route: "/onepage" },
+// ];
 
 export const projects = [
   { id: 1, label: "Projects I", route: "/projects" },

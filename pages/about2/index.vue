@@ -13,7 +13,7 @@
     <AboutAbout2Testimonials />
     <AboutAbout2Contact />
   </div>
-  <FootersFooter5 />
+  <FootersFooter1 />
 </template>
 
 <script setup>

@@ -1,31 +1,42 @@
 <template>
   <header class="wrapper bg-soft-primary">
     <nav
-      :class="`navbar navbar-expand-lg center-nav transparent navbar-light ${
+      :class="`navbar navbar-expand-lg center-nav transparent position-absolute  ${
         addClass2 ? 'fixed navbar-clone' : ''
-      } ${addClass ? 'navbar-clone navbar-stick' : ' navbar-unstick'} `"
+      } ${
+        addClass
+          ? 'navbar-clone navbar-stick navbar-light'
+          : ' navbar-unstick navbar-dark'
+      } `"
     >
       <div class="container flex-lg-row flex-nowrap align-items-center">
         <div class="navbar-brand w-100">
           <nuxt-link to="/">
             <nuxt-img
-              src="/assets/img/logo-dark.png"
-              srcset="/assets/img/logo-dark@2x.png 2x"
+              class="logo-dark"
+              src="/assets/img/logo.png"
+              srcset="/assets/img/logo@2x.png 2x"
+              alt="photo"
+            />
+            <nuxt-img
+              class="logo-light"
+              src="/assets/img/logo-light.png"
+              srcset="/assets/img/logo-light@2x.png 2x"
               alt="photo"
             />
           </nuxt-link>
         </div>
         <div
-          id="ofCanvasBody"
           class="navbar-collapse offcanvas offcanvas-nav offcanvas-start"
+          id="ofCanvasBody"
         >
           <div class="offcanvas-header d-lg-none">
             <h3 class="text-white fs-30 mb-0">Sandbox</h3>
             <button
               type="button"
               class="btn-close btn-close-white"
-              @click="menuClose"
               data-bs-dismiss="offcanvas"
+              @click="menuClose"
               aria-label="Close"
             ></button>
           </div>
@@ -54,19 +65,16 @@
         <!-- /.navbar-collapse -->
         <div class="navbar-other w-100 d-flex ms-auto">
           <ul class="navbar-nav flex-row align-items-center ms-auto">
-            <li class="nav-item dropdown language-select text-uppercase">
+            <!-- <li class="nav-item dropdown language-select text-uppercase">
               <HeadersComponentsLanguage />
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvas-info"
-                ><i class="uil uil-info-circle"></i
-              ></a>
+            </li> -->
+            <li class="nav-item d-none d-md-block">
+              <nuxt-link to="/contact" class="btn btn-sm btn-white rounded-pill"
+                >Contact</nuxt-link
+              >
             </li>
             <li class="nav-item d-lg-none">
-              <button @click="menuOpen" class="hamburger offcanvas-nav-btn">
+              <button class="hamburger offcanvas-nav-btn" @click="menuOpen">
                 <span></span>
               </button>
             </li>
@@ -84,60 +92,8 @@
       <!-- /.container -->
     </nav>
     <!-- /.navbar -->
-    <div
-      class="offcanvas offcanvas-end text-inverse"
-      id="offcanvas-info"
-      data-bs-scroll="true"
-    >
-      <div class="offcanvas-header">
-        <h3 class="text-white fs-30 mb-0">Sandbox</h3>
-        <button
-          type="button"
-          class="btn-close btn-close-white"
-          data-bs-dismiss="offcanvas"
-          aria-label="Close"
-        ></button>
-      </div>
-      <div class="offcanvas-body pb-6">
-        <div class="widget mb-8">
-          <p>
-            Sandbox is a multipurpose HTML5 template with various layouts which
-            will be a great solution for your business.
-          </p>
-        </div>
-        <!-- /.widget -->
-        <div class="widget mb-8">
-          <h4 class="widget-title text-white mb-3">Contact Info</h4>
-          <address>
-            Moonshine St. 14/05 <br />
-            Light City, London
-          </address>
-          <a href="mailto:first.last@email.com">info@email.com</a><br />
-          00 (123) 456 78 90
-        </div>
-        <!-- /.widget -->
-        <div class="widget mb-8">
-          <h4 class="widget-title text-white mb-3">Learn More</h4>
-          <ul class="list-unstyled">
-            <HeadersComponentsLinks />
-          </ul>
-        </div>
-        <!-- /.widget -->
-        <div class="widget">
-          <h4 class="widget-title text-white mb-3">Follow Us</h4>
-          <nav class="nav social social-white">
-            <HeadersComponentsSocials />
-          </nav>
-          <!-- /.social -->
-        </div>
-        <!-- /.widget -->
-      </div>
-      <!-- /.offcanvas-body -->
-    </div>
-    <!-- /.offcanvas -->
   </header>
 </template>
-
 <script setup>
 const menuOpen = () => {
   document.getElementById("ofCanvasBody").classList.toggle("show");

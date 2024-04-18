@@ -9,7 +9,7 @@
               data-aos-once="true"
               data-aos-delay="300"
               class="w-auto"
-              src="/assets/img/illustrations/i2.png"
+              src="/assets/img/illustrations/i2.webp"
               srcset="/assets/img/illustrations/i2@2x.png 2x"
               alt="photo"
             />
@@ -33,14 +33,8 @@
             data-aos-once="true"
             data-aos-delay="100"
           >
-            We help our clients to increase their website traffic, rankings and
-            visibility in search results.
+            Transforming client visions into stunning virtual reality websites, crafting unique digital experiences that captivate and engage audiences.
           </p>
-          <span data-aos="fade-up" data-aos-once="true" data-aos-delay="200">
-            <nuxt-link to="/signup" class="btn btn-primary rounded-pill me-2"
-              >Try It For Free</nuxt-link
-            ></span
-          >
         </div>
         <!-- /column -->
       </div>

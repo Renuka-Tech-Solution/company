@@ -6,8 +6,8 @@
           <figure>
             <nuxt-img
               class="w-auto"
-              src="/assets/img/illustrations/i4.png"
-              srcset="/assets/img/illustrations/i4@2x.png 2x"
+              src="/assets/img/illustrations/about-i4.webp"
+              srcset="/assets/img/illustrations/about-i4.webp"
               alt="photo"
             />
           </figure>

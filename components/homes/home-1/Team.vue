@@ -6,7 +6,7 @@
           <div class="col-lg-8 col-xl-7 col-xxl-6 mx-auto">
             <h2 class="fs-16 text-uppercase text-muted mb-3">Our Team</h2>
             <h3 class="display-4 mb-10 px-md-13 px-lg-4 px-xl-0">
-              Think unique and be innovative. Make a difference with Sandbox.
+              Meet Our Development Team
             </h3>
           </div>
           <!-- /column -->
@@ -27,18 +27,18 @@
             <div
               v-for="(elm, i) in teamMembers2.slice(0, 4)"
               :key="i"
-              class="col-md-6 col-xl-3"
+              class="col-md-6 col-xl-3  "
             >
               <div class="card shadow-lg">
-                <div class="card-body">
+                <div class="card-body d-flex justify-content-center flex-column">
                   <nuxt-img
-                    class="rounded-circle w-15 mb-4"
+                    class="rounded-circle w-15 mb-4 m-auto"
                     :src="elm.avatarSrc"
                     alt="photo"
                   />
-                  <h4 class="mb-1">{{ elm.name }}</h4>
-                  <div class="meta mb-2">{{ elm.position }}</div>
-                  <p class="mb-2">{{ elm.description }}</p>
+                  <h4 class="mb-1 m-auto">{{ elm.name }}</h4>
+                  <div class="meta mb-2 m-auto">{{ elm.position }}</div>
+                  <!-- <p class="mb-2">{{ elm.description }}</p>
                   <nav class="nav social mb-0">
                     <a
                       v-for="(elm2, i2) in elm.socialLinks"
@@ -46,7 +46,7 @@
                       :href="elm2.link"
                       ><i :class="elm2.iconClass"></i
                     ></a>
-                  </nav>
+                  </nav> -->
                   <!-- /.social -->
                 </div>
                 <!--/.card-body -->
