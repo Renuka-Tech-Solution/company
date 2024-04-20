@@ -12,12 +12,7 @@
       <div class="container flex-lg-row flex-nowrap align-items-center">
         <div class="navbar-brand w-100">
           <nuxt-link to="/">
-            <nuxt-img
-              class="logo-dark"
-              src="/assets/img/logo.png"
-              srcset="/assets/img/logo@2x.png 2x"
-              alt="photo"
-            />
+           <HeadersHeader-Logo />
             <nuxt-img
               class="logo-light"
               src="/assets/img/logo-light.png"

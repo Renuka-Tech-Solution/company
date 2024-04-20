@@ -24,25 +24,25 @@ export const steps = [
     number: "01",
     title: "Concept",
     description:
-      "Nulla vitae elit libero elit non porta gravida eget metus cras. Aenean eu leo quam. Pellentesque ornare.",
+      "Craft initial vision, aligning your goals with innovative design concepts for your website development.",
   },
   {
     number: "02",
     title: "Prepare",
     description:
-      "Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis.",
+      "Develop a robust framework, laying the foundation for a seamless user experience and functionality.",
   },
   {
     number: "03",
     title: "Retouch",
     description:
-      "Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero.",
+      "Refine and polish every detail, ensuring your website is visually stunning and flawlessly functional.",
   },
   {
     number: "04",
     title: "Finalize",
     description:
-      "Integer posuere erat, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus commodo.",
+      "Launch your website with confidence, providing you with full control and stress-free management of your online presence.",
   },
 ];
 
@@ -121,21 +121,21 @@ export const steps5 = [
     iconSrc: "/assets/img/icons/lineal/light-bulb.svg",
     iconColor: "primary",
     title: "Collect Ideas",
-    description: "Nulla vitae elit libero pharetra augue dapibus.",
+    description: "Client-centric web solutions tailored to your unique vision and goals.",
   },
   {
     id: 2,
     iconSrc: "/assets/img/icons/lineal/pie-chart-2.svg",
     iconColor: "green",
     title: "Data Analysis",
-    description: "Vivamus sagittis lacus augue laoreet vel.",
+    description: "Utilize client data to drive strategic website development decisions.",
   },
   {
     id: 3,
     iconSrc: "/assets/img/icons/lineal/design.svg",
     iconColor: "yellow",
     title: "Magic Touch",
-    description: "Cras mattis consectetur purus sit amet.",
+    description: "Transforming visions into captivating, user-centric digital experiences. Pure magic!",
   },
 ];
 export const steps7 = [

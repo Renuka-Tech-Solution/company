@@ -1,20 +1,21 @@
 <template>
   <section class="wrapper bg-light">
-    <div class="container pt-15 pt-md-17 pb-13 pb-md-15">
+    <div class="container pt-6 pt-md-6 pb-md-10 pt-lg-8 pb-lg-12">
       <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
         <div class="col-lg-7">
           <figure>
             <nuxt-img
               class="w-auto"
               src="/assets/img/illustrations/shopify-i8.webp"
+              srcset="/assets/img/illustrations/shopify-i8.webp"
               alt="photo"
             />
           </figure>
         </div>
         <!--/column -->
         <div class="col-lg-5">
-          <h3 class="display-4 mb-6 pe-xxl-6">
-            We bring rapid solutions to make the life of our customers easier.
+          <h3 class="display-5 mb-6 pe-xxl-6">
+            Delivering swift solutions to simplify Shopify experiences for our customers' convenience.
           </h3>
           <ul class="progress-list mt-3">
             <li v-for="(item, index) in skills" :key="index">

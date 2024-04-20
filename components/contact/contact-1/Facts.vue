@@ -3,7 +3,7 @@
     class="wrapper image-wrapper bg-auto no-overlay bg-image text-center bg-map"
     style="background-image: url(/assets/img/map.png)"
   >
-    <div class="container py-10 pt-md-11 pb-md-13">
+    <div class="container py-10 pt-md-2 pb-md-13">
       <div class="row pt-md-12">
         <div class="col-lg-10 col-xl-9 col-xxl-8 mx-auto">
           <h2 class="fs-15 text-uppercase text-muted mb-3">

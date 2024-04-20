@@ -1,8 +1,8 @@
 <template>
   <div class="content-wrapper">
     <HeadersPortfolio bg="bg-white" />
-    <ProjectsProject2Hero />
-    <ProjectsProject2ProjectList />
+    <PortfolioHero />
+    <PortfolioProjectList />
   </div>
   <FootersFooter1 />
 </template>

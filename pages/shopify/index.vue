@@ -5,9 +5,7 @@
     <ServicesShopifyFeatures />
     <ServicesShopifyProcess />
     <ServicesShopifyService />
-    <ServicesShopifyFeatures2 />
-    <ServicesShopifyPricing />
-    <ServicesShopifyFacts />
+    <ServicesShopifyClients />
   </div>
   <FootersFooter1 />
 </template>

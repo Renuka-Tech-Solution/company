@@ -1,87 +1,151 @@
 <template>
-  <section class="wrapper bg-soft-primary mt-25">
-    <div class="container py-14 pt-md-16 pt-lg-0 pb-md-16">
+  <section class="wrapper bg-soft-primary">
+    <div class="container py-5 pt-md-10 pt-lg-0 pb-md-12 pb-lg-16">
       <div class="row text-center">
         <div class="col-lg-10 mx-auto">
-          <div class="mt-lg-n20 mt-xl-n22 position-relative">
-            <div
-              class="shape bg-dot red rellax w-16 h-18"
-              data-rellax-speed="1"
-              style="top: 1rem; left: -3.9rem; pointer-events: none; z-index: 1"
-            ></div>
-            <div
-              class="shape rounded-circle bg-line primary rellax w-18 h-18"
-              data-rellax-speed="1"
-              style="
-                bottom: 2rem;
-                right: -3rem;
-                pointer-events: none;
-                z-index: 1;
-              "
-            ></div>
-            <CommonVideoPlayer
-              :options="{
-                autoplay: true,
-                controls: true,
-                sources: [
-                  {
-                    src: '/assets/media/movie.mp4',
-                    type: 'video/mp4',
-                  },
-                ],
-              }"
-            />
-          </div>
-        </div>
-        <!--/column -->
-      </div>
-      <!--/.row -->
-      <div class="row text-center">
-        <div class="col-lg-9 mx-auto">
           <h2 class="fs-15 text-uppercase text-muted mb-3 mt-12">
-            Our Process
+            What we provide ?
           </h2>
-          <h3 class="display-4 mb-0 text-center px-xl-10 px-xxl-15">
-            Find out everything you need to know about creating a business
-            process model
+          <h3 class="display-4 mb-5">
+          Find out everything you need to know about what we provide in Our Shopify Service
           </h3>
-          <div class="row gx-lg-8 gx-xl-12 process-wrapper text-center mt-9">
-            <div class="col-md-4">
+          <div class="row gx-lg-8 gx-xl-12 process-wrapper mt-9 mx-6 mx-md-2">
+            <div class="col-md-4 d-flex justify-content-start flex-column mb-8 ">
               <nuxt-img
-                src="/assets/img/icons/lineal/light-bulb.svg"
-                class="icon-svg icon-svg-md text-primary mb-3"
+                src="/assets/img/shopify/services/shopify-checkout.png"
+                class="icon-svg icon-svg-lg text-primary mb-3"
                 alt="photo"
               />
-              <h4 class="mb-1">1. Concept</h4>
-              <p>
-                Nulla vitae elit libero elit non porta gravida eget metus cras.
+              <h4 class="mb-1 text-start">Shopify Checkout Upgrades</h4>
+              <p class="text-start mb-1">
+                &#x2022; Upgrade Script Editor <br> &nbsp;&nbsp;&nbsp;&nbsp;to Checkout Function
+              </p>
+              <p class="text-start mb-1">
+                &#x2022; Checkout Validation  
+              </p>
+              <p class="text-start">
+                &#x2022; UI Extensions
               </p>
             </div>
-            <!--/column -->
-            <div class="col-md-4">
+
+            <div class="col-md-4 d-flex justify-content-start flex-column mb-10">
               <nuxt-img
-                src="/assets/img/icons/lineal/settings-3.svg"
-                class="icon-svg icon-svg-md text-red mb-3"
+                src="/assets/img/shopify/services/api-upgrades.png"
+                class="icon-svg icon-svg-lg text-primary mb-3"
                 alt="photo"
               />
-              <h4 class="mb-1">2. Prepare</h4>
-              <p>
-                Nulla vitae elit libero elit non porta gravida eget metus cras.
+              <h4 class="mb-1 text-start">API Deprecation Upgrades</h4>
+              <p class="text-start mb-1">
+                &#x2022; Webhook Deprecation
+              </p>
+              <p class="text-start">
+                &#x2022; App Integration Updates
               </p>
             </div>
-            <!--/column -->
-            <div class="col-md-4">
+
+            <div class="col-md-4 d-flex justify-content-start flex-column mb-10">
               <nuxt-img
-                src="/assets/img/icons/lineal/design.svg"
-                class="icon-svg icon-svg-md text-leaf mb-3"
+                src="/assets/img/shopify/services/erp-integration.png"
+                class="icon-svg icon-svg-lg text-primary mb-3"
                 alt="photo"
               />
-              <h4 class="mb-1">3. Retouch</h4>
-              <p>
-                Nulla vitae elit libero elit non porta gravida eget metus cras.
+              <h4 class="mb-1 text-start">ERP Integration</h4>
+              <p class="text-start  mb-1">
+                &#x2022; Salesforce
+              </p>
+              <p class="text-start mb-1">
+                &#x2022; IFS
+              </p>
+              <p class="text-start mb-1">
+                &#x2022; EDI
+              </p>
+              <p class="text-start mb-1">
+                &#x2022; CIN7
+              </p>
+              <p class="text-start mb-1">
+                &#x2022; Netsuite
               </p>
             </div>
-            <!--/column -->
+
+            <div class="col-md-4 d-flex justify-content-start flex-column mb-10">
+              <nuxt-img
+                src="/assets/img/shopify/services/migration.png"
+                class="icon-svg icon-svg-lg text-primary mb-3"
+                alt="photo"
+              />
+              <h4 class="mb-1 text-start">Migration (Any to Shopify) </h4>
+              <p class="text-start mb-1">
+                &#x2022; Magento
+              </p>
+              <p class="text-start">
+                &#x2022; Wordpress
+              </p>
+            </div>
+            
+            <div class="col-md-4 d-flex justify-content-start flex-column mb-10">
+              <nuxt-img
+                src="/assets/img/shopify/services/store-setup.png"
+                class="icon-svg icon-svg-lg text-primary mb-3"
+                alt="photo"
+              />
+              <h4 class="mb-1 text-start">Store Setup</h4>
+              <p class="text-start mb-1">
+                &#x2022; 301 SEO
+              </p>
+              <p class="text-start mb-1">
+                &#x2022; Google Merchant
+              </p>
+              <p class="text-start mb-1">
+                &#x2022; Facebook Merchant
+              </p>
+              <p class="text-start mb-1">
+                &#x2022; Product Approvals
+              </p>
+            </div>
+
+            <div class="col-md-4 d-flex justify-content-start flex-column mb-10">
+              <nuxt-img
+                src="/assets/img/shopify/services/3rd-party-integration.png"
+                class="icon-svg icon-svg-lg text-primary mb-3"
+                alt="photo"
+              />
+              <h4 class="mb-1 text-start">3rd Party Integration</h4>
+              <p class="text-start mb-1">
+                &#x2022; Recharge
+              </p>
+              <p class="text-start">
+                &#x2022; Klavio
+              </p>
+            </div>
+
+            <div class="col-md-4 d-flex justify-content-start flex-column mb-10">
+              <nuxt-img
+                src="/assets/img/shopify/services/retainer-maintenance.png"
+                class="icon-svg icon-svg-lg text-primary mb-3"
+                alt="photo"
+              />
+              <h4 class="mb-1 text-start">Retainer Maintenance</h4>
+            </div>
+
+            <div class="col-md-4 d-flex justify-content-start flex-column mb-10">
+              <nuxt-img
+                src="/assets/img/shopify/services/business-logic-customization.png"
+                class="icon-svg icon-svg-lg text-primary mb-3"
+                alt="photo"
+              />
+              <h4 class="mb-1 text-start">Advance Business Logic Customization</h4>
+            </div>
+            <div class="col-md-4 d-flex justify-content-start flex-column mb-10">
+              <nuxt-img
+                src="/assets/img/shopify/services/custom-storefront-designing.png"
+                class="icon-svg icon-svg-lg text-primary mb-3"
+                alt="photo"
+              />
+              <h4 class="mb-1 text-start">Custom Storefront Designing</h4>
+            </div>
+
+
+
           </div>
           <!--/.row -->
         </div>

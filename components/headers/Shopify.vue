@@ -1,57 +1,42 @@
 <template>
-  <header class="wrapper bg-soft-primary">
+  <header :class="`wrapper ${bg ? bg : 'bg-soft-primary'}`">
     <nav
-      :class="`navbar navbar-expand-lg center-nav transparent position-absolute  ${
+      :class="`navbar navbar-expand-lg center-nav transparent navbar-light ${
         addClass2 ? 'fixed navbar-clone' : ''
-      } ${
-        addClass
-          ? 'navbar-clone navbar-stick navbar-light'
-          : ' navbar-unstick navbar-dark'
-      } `"
+      } ${addClass ? ' navbar-stick' : ' navbar-unstick'} `"
     >
       <div class="container flex-lg-row flex-nowrap align-items-center">
         <div class="navbar-brand w-100">
           <nuxt-link to="/">
-            <nuxt-img
-              class="logo-dark"
-              src="/assets/img/logo.png"
-              srcset="/assets/img/logo@2x.png 2x"
-              alt="photo"
-            />
-            <nuxt-img
-              class="logo-light"
-              src="/assets/img/logo-light.png"
-              srcset="/assets/img/logo-light@2x.png 2x"
-              alt="photo"
-            />
+            <HeadersHeader-Logo />
           </nuxt-link>
         </div>
         <div
-          class="navbar-collapse offcanvas offcanvas-nav offcanvas-start"
           id="ofCanvasBody"
+          class="navbar-collapse offcanvas offcanvas-nav offcanvas-start"
         >
           <div class="offcanvas-header d-lg-none">
             <h3 class="text-white fs-30 mb-0">Sandbox</h3>
             <button
               type="button"
               class="btn-close btn-close-white"
-              data-bs-dismiss="offcanvas"
               @click="menuClose"
+              ofCanvasToggle="offcanvas"
               aria-label="Close"
             ></button>
           </div>
           <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
             <ul class="navbar-nav">
-              <HeadersComponentsMenu />
+              <Menu />
             </ul>
             <!-- /.navbar-nav -->
             <div class="offcanvas-footer d-lg-none">
               <div>
-                <a href="mailto:first.last@email.com" class="link-inverse"
-                  >info@email.com</a
+                <a href="mailto:contact@techrenuka.com" class="link-inverse"
+                  >contact@techrenuka.com</a
                 >
                 <br />
-                00 (123) 456 78 90 <br />
+                +91-80000-78982 <br />
                 <nav class="nav social social-white mt-4">
                   <HeadersComponentsSocials />
                 </nav>
@@ -69,18 +54,21 @@
               <HeadersComponentsLanguage />
             </li> -->
             <li class="nav-item d-none d-md-block">
-              <nuxt-link to="/contact" class="btn btn-sm btn-white rounded-pill"
+              <nuxt-link
+                to="/contact"
+                class="btn btn-sm btn-primary rounded-pill"
                 >Contact</nuxt-link
               >
             </li>
-            <li class="nav-item d-lg-none">
-              <button class="hamburger offcanvas-nav-btn" @click="menuOpen">
+            <li class="nav-item d-lg-none" ofCanvasToggle2="offcanvas2">
+              <button @click="menuOpen" class="hamburger offcanvas-nav-btn">
                 <span></span>
               </button>
             </li>
           </ul>
           <!-- /.navbar-nav -->
         </div>
+
         <!-- /.navbar-other -->
         <div
           id="offcanvasBackdrop"
@@ -95,6 +83,9 @@
   </header>
 </template>
 <script setup>
+defineProps(["bg"]);
+import Menu from "./components/Menu";
+
 const menuOpen = () => {
   document.getElementById("ofCanvasBody").classList.toggle("show");
   document.getElementById("offcanvasBackdrop").style.display = "block";

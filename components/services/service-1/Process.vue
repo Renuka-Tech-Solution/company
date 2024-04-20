@@ -1,5 +1,5 @@
 <template>
-  <h2 class="display-4 mb-3 mt-15">How We Do It?</h2>
+  <h2 class="display-4 mb-3">How We Do It?</h2>
   <p class="lead fs-lg mb-8">
     We make your spending <span class="underline">stress-free</span> for you to
     have the perfect control.
@@ -12,7 +12,7 @@
           'btn',
           'btn-circle',
           'btn-lg',
-          item.number != 2 ? 'btn-soft-primary' : 'btn-primary',
+          'btn-primary',
           'pe-none',
           'mb-4',
         ]"

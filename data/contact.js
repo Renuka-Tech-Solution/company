@@ -4,21 +4,20 @@ export const contactInfo = [
     iconClass: "uil uil-location-pin-alt",
     title: "Address",
     address: {
-      line1: "Moonshine St. 14/05 Light City,",
-      line2: "London, United Kingdom",
+      line1: "Surat, Gujarat, India"
     },
   },
   {
     id: 2,
     iconClass: "uil uil-phone-volume",
     title: "Phone",
-    content: "00 (123) 456 78 90",
+    content: "+91-80000-78982",
   },
   {
     id: 3,
     iconClass: "uil uil-envelope",
     title: "E-mail",
-    mail: "sandbox@email.com",
+    mail: "contact@techrenuka.com",
   },
 ];
 export const contactInfo2 = [
@@ -27,20 +26,19 @@ export const contactInfo2 = [
     iconClass: "uil uil-location-pin-alt",
     title: "Address",
     address: {
-      line1: "Moonshine St. 14/05 Light City,",
-      line2: "London, United Kingdom",
+      line1: "Surat, Gujarat, India"
     },
   },
   {
     id: 2,
     iconClass: "uil uil-phone-volume",
     title: "Phone",
-    content: ["00 (123) 456 78 90", "00 (987) 654 32 10"],
+    content: "+91-80000-78982",
   },
   {
     id: 3,
     iconClass: "uil uil-envelope",
     title: "E-mail",
-    mail: ["sandbox@email.com", "help@sandbox.com"],
+    mail: "contact@techrenuka.com",
   },
 ];

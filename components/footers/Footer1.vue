@@ -6,9 +6,10 @@
           <div class="widget">
             <nuxt-img
               class="mb-4"
-              src="/assets/img/logo-light.png"
-              srcset="/assets/img/logo-light@2x.png 2x"
+              src="/assets/img/techrenuka-white.png"
+              srcset="/assets/img/techrenuka-white.png"
               alt="photo"
+              style="width:9rem;"
             />
             <p class="mb-4">
               © {{ new Date().getFullYear() }} Tech Renuka. All rights reserved.
@@ -22,7 +23,7 @@
           <!-- /.widget -->
         </div>
         <!-- /column -->
-        <div class="col-md-4 col-lg-4 px-11">
+        <div class="col-md-4 col-lg-4">
           <div class="widget">
             <h4 class="widget-title text-white mb-3">Contact</h4>
             <address class="pe-xl-15 pe-xxl-17">
@@ -34,7 +35,7 @@
           <!-- /.widget -->
         </div>
         <!-- /column -->
-        <div class="col-md-4 col-lg-4 px-12">
+        <div class="col-md-4 col-lg-4">
           <div class="widget">
             <h4 class="widget-title text-white mb-3">Learn More</h4>
             <ul class="list-unstyled mb-0">

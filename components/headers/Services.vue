@@ -8,11 +8,7 @@
       <div class="container flex-lg-row flex-nowrap align-items-center">
         <div class="navbar-brand w-100">
           <nuxt-link to="/">
-            <nuxt-img
-              src="/assets/img/logo.png"
-              srcset="/assets/img/logo@2x.png 2x"
-              alt="photo"
-            />
+            <HeadersHeader-Logo />
           </nuxt-link>
         </div>
         <div
@@ -36,11 +32,11 @@
             <!-- /.navbar-nav -->
             <div class="offcanvas-footer d-lg-none">
               <div>
-                <a href="mailto:first.last@email.com" class="link-inverse"
-                  >info@email.com</a
+                <a href="mailto:contact@techrenuka.com" class="link-inverse"
+                  >contact@techrenuka.com</a
                 >
                 <br />
-                00 (123) 456 78 90 <br />
+                +91-80000-78982 <br />
                 <nav class="nav social social-white mt-4">
                   <HeadersComponentsSocials />
                 </nav>

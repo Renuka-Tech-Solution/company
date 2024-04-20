@@ -3,7 +3,6 @@
     <HeadersContact />
     <ContactContact1Hero />
     <ContactContact1ContactInfo />
-    <ContactContact1Facts />
   </div>
   <FootersFooter1 />
 </template>

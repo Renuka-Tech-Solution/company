@@ -8,12 +8,9 @@
       <div class="container flex-lg-row flex-nowrap align-items-center">
         <div class="navbar-brand w-100">
           <!-- Company Header Logo -->
+          
           <nuxt-link to="/">
-            <nuxt-img
-              src="/assets/img/logo-dark.png"
-              srcset="/assets/img/logo-dark@2x.png 2x"
-              alt="photo"
-            />
+            <HeadersHeader-Logo />
           </nuxt-link>
         </div>
         <div
@@ -38,10 +35,10 @@
             <div class="offcanvas-footer d-lg-none">
               <div>
                 <a href="mailto:first.last@email.com" class="link-inverse"
-                  >info@email.com</a
+                  >contact@techrenuka.com</a
                 >
                 <br />
-                00 (123) 456 78 90 <br />
+                +91-80000-78982<br />
                 <nav class="nav social social-white mt-4">
                   <HeadersComponentsSocials />
                 </nav>
@@ -90,11 +87,11 @@
       id="offcanvas-info"
       data-bs-scroll="true"
     >
-      <div class="offcanvas-header">
+      <div class="offcanvas-header d-flex justify-content-space-between">
         <h3 class="text-white fs-30 mb-0">Tech Renuka &nbsp;</h3>
         <button
           type="button"
-          class="btn-close btn-close-white"
+          class="btn-close btn-close-white pl-10"
           data-bs-dismiss="offcanvas"
           aria-label="Close"
         ></button>
@@ -112,7 +109,7 @@
           <address>
             Surat - 395003, Gujarat, India.
           </address>
-          <a href="mailto:info@techrenuka.com">info@techrenuka.com</a><br />
+          <a href="mailto:contact@techrenuka.com">contact@techrenuka.com</a><br />
           +91-80000-78982
         </div>
         <!-- Learn More Start -->

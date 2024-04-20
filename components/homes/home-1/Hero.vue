@@ -10,7 +10,7 @@
               data-aos-delay="300"
               class="w-auto"
               src="/assets/img/illustrations/i2.webp"
-              srcset="/assets/img/illustrations/i2@2x.png 2x"
+              srcset="/assets/img/illustrations/i2.webp"
               alt="photo"
             />
           </figure>

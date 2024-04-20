@@ -1,7 +1,16 @@
 <template>
   <section class="wrapper bg-light">
-    <div class="container pt-15 pt-md-17 pb-13 pb-md-15">
+    <div class="container pt-8 pt-md-14 pt-lg-17 pb-2 pb-lg-12">
       <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+        <div class="col-lg-5">
+          <h2 class="fs-15 text-uppercase text-muted mb-3">What We Offer?</h2>
+          <h3 class="display-4 mb-5">
+            The service we offer is specifically designed to meet your needs.
+          </h3>
+          <p>
+            Our Shopify website development service is meticulously tailored to fulfill your unique requirements, ensuring a perfect fit for your business.
+          </p>
+        </div>
         <div class="col-lg-7 order-lg-2">
           <div class="row gx-md-5 gy-5">
             <div
@@ -27,21 +36,6 @@
           </div>
           <!--/.row -->
         </div>
-        <!--/column -->
-        <div class="col-lg-5">
-          <h2 class="fs-15 text-uppercase text-muted mb-3">What We Do?</h2>
-          <h3 class="display-4 mb-5">
-            The service we offer is specifically designed to meet your needs.
-          </h3>
-          <p>
-            Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
-            auctor. Maecenas sed diam eget risus varius blandit sit amet non
-            magna. Maecenas faucibus mollis interdum. Praesent commodo cursus
-            magna, vel scelerisque nisl consectetur et.
-          </p>
-          <a href="#" class="btn btn-navy rounded-pill mt-3">More Details</a>
-        </div>
-        <!--/column -->
       </div>
       <!--/.row -->
     </div>
@@ -61,7 +55,7 @@ const cards = [
     iconClass: "icon-svg icon-svg-md text-yellow mb-3",
     title: "24/7 Support",
     description:
-      "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta.",
+      "Expert support available round-the-clock for Shopify services.",
   },
   {
     id: 2,
@@ -71,7 +65,7 @@ const cards = [
     iconClass: "icon-svg icon-svg-md text-red mb-3",
     title: "Secure Payments",
     description:
-      "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta.",
+      "Guaranteed secure transactions for your Shopify store's payment checkout.",
   },
   {
     id: 3,
@@ -80,7 +74,7 @@ const cards = [
     iconSrc: "/assets/img/icons/lineal/cloud-computing-3.svg",
     iconClass: "icon-svg icon-svg-md text-leaf mb-3",
     title: "Daily Updates",
-    description: "Nulla vitae elit libero, a pharetra augue.",
+    description: "Daily progress updates ensure transparency and timely completion.",
   },
   {
     id: 4,
@@ -90,7 +84,7 @@ const cards = [
     iconClass: "icon-svg icon-svg-md text-primary mb-3",
     title: "Market Research",
     description:
-      "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget.",
+      "Tailored market research for Shopify to meet your unique needs",
   },
 ];
 </script>

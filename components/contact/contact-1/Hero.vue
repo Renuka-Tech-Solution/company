@@ -9,7 +9,7 @@
           <h1 class="display-1 mb-3 text-white">Get in Touch</h1>
           <nav class="d-inline-block" aria-label="breadcrumb">
             <ol class="breadcrumb text-white">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><nuxt-link href="/">Home</nuxt-link></li>
               <li class="breadcrumb-item active" aria-current="page">
                 Contact
               </li>

@@ -10,9 +10,8 @@
       </div>
     </section>
     <ServicesService1Cta />
-    <ServicesService1Pricing />
   </div>
-  <FootersFooter5 />
+  <FootersFooter1 />
 </template>
 
 <script setup>

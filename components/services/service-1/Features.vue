@@ -1,10 +1,10 @@
 <template>
   <section id="snippet-3" class="wrapper bg-light">
-    <div class="container pt-15 pt-md-5 pb-13 pb-md-15 text-center">
+    <div class="container pt-5 pt-md-5 pb-5 pb-md-15 text-center">
       <div class="row">
         <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
           <h2 class="fs-15 text-uppercase text-muted mb-3">What We Do?</h2>
-          <h3 class="display-4 mb-10 px-xl-10">
+          <h3 class="display-4 mb-4 px-xl-10">
             The service we offer is specifically designed to meet client's needs.
           </h3>
         </div>
@@ -22,14 +22,14 @@
           data-rellax-speed="1"
           style="top: -0.5rem; left: -2.5rem; z-index: 0"
         ></div>
-        <div class="row gx-md-5 gy-5 text-center">
+        <div class="row gx-md-5 text-center">
           <div
             v-for="service in servicesPage"
             :key="service.id"
             class="col-md-6 col-xl-4"
           >
             <div class="card shadow-lg">
-              <div class="card-body">
+              <div class="card-body px-3 py-5">
                 <nuxt-img
                   :src="service.iconSrc"
                   class="icon-svg icon-svg-md mb-4"

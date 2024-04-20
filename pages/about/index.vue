@@ -9,8 +9,7 @@
         <AboutAbout2Faq />
       </div>
     </section>
-    <AboutAbout2Team />
-    <AboutAbout2Testimonials />
+    <AboutAbout2Clients />
     <AboutAbout2Contact />
   </div>
   <FootersFooter1 />

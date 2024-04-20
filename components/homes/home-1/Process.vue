@@ -1,7 +1,20 @@
 <template>
   <section class="wrapper bg-light angled upper-start lower-start">
-    <div class="container py-14 pt-md-17 pb-md-15">
-      <div class="row gx-md-8 gx-xl-12 gy-10 mb-14 mb-md-18 align-items-center">
+    <div class="container py-3 pt-lg-5 pb-lg-5">
+      <div class="row gx-md-8 gx-xl-12 gy-10 mb-14 mb-md-10 align-items-center">
+        <div class="col-lg-6">
+          <h2 class="fs-16 text-uppercase text-muted mb-3">Our Strategy</h2>
+          <h3 class="display-4 mb-5">
+            Here are 3 working steps to build your website.
+          </h3>
+          <p>
+           Crafting Your Digital Presence: Discover how our strategic approach transforms your vision into a captivating website. From design concepts to user experience, we tailor solutions for maximum impact and engagement.
+          </p>
+          <p class="mb-6 mb-md-0">
+            We customize features and functionalities to match your unique needs, delivering a website that stands out and performs.
+          </p>
+          <!-- <a href="#" class="btn btn-primary rounded-pill mb-0">Learn More</a> -->
+        </div>
         <div class="col-lg-6 order-lg-2">
           <div
             v-for="(item, index) in steps4"
@@ -32,21 +45,6 @@
           </div>
           <!--/.card -->
         </div>
-        <!--/column -->
-        <div class="col-lg-6">
-          <h2 class="fs-16 text-uppercase text-muted mb-3">Our Strategy</h2>
-          <h3 class="display-4 mb-5">
-            Here are 3 working steps to build your website.
-          </h3>
-          <p>
-           Crafting Your Digital Presence: Discover how our strategic approach transforms your vision into a captivating website. From design concepts to user experience, we tailor solutions for maximum impact and engagement.
-          </p>
-          <p class="mb-6">
-            We customize features and functionalities to match your unique needs, delivering a website that stands out and performs.
-          </p>
-          <!-- <a href="#" class="btn btn-primary rounded-pill mb-0">Learn More</a> -->
-        </div>
-        <!--/column -->
       </div>
       <!--/.row -->
       <div

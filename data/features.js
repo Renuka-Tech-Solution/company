@@ -238,6 +238,24 @@ export const servicesPage = [
       "Already having a Laravel application with you? And looking for help in upgrading it? or maybe optimization; Tech Renuka is at your service! Our Certified Team of Developers would love to help you out!",
     linkColorClass: "link-blue",
   },
+  {
+    id: 7,
+    iconSrc: "/assets/img/icons/lineal/google-merchant-center.svg",
+    iconColorClass: "text-blue",
+    title: "Google Merchant Service",
+    description:
+      "Optimize product listings, enhance visibility, and maximize sales potential on the world's largest search engine platform. Reach more customers and drive growth effortlessly.",
+    linkColorClass: "link-blue",
+  },
+  {
+    id: 8,
+    iconSrc: "/assets/img/icons/lineal/website-redesign.png",
+    iconColorClass: "text-blue",
+    title: "Website Redesign",
+    description:
+      "Already having a Laravel application with you? And looking for help in upgrading it? or maybe optimization; Tech Renuka is at your service! Our Certified Team of Developers would love to help you out!",
+    linkColorClass: "link-blue",
+  },
 ];
 
 export const features5 = [
@@ -722,25 +740,25 @@ export const features10 = [
     id: 1,
     iconSrc: "/assets/img/icons/lineal/megaphone.svg",
     title: "Marketing",
-    description: "Nulla vitae elit libero pharetra augue dapibus.",
+    description: "Drive traffic, engage audiences, and boost conversions with strategic marketing",
   },
   {
     id: 2,
     iconSrc: "/assets/img/icons/lineal/target.svg",
     title: "Strategy",
-    description: "Vivamus sagittis lacus augue laoreet vel.",
+    description: "Strategically designed websites for optimal digital success and user engagement",
   },
   {
     id: 3,
     iconSrc: "/assets/img/icons/lineal/settings-3.svg",
     title: "Development",
-    description: "Cras mattis consectetur purus sit amet.",
+    description: "Crafting professional websites tailored to your brand's vision and goals.",
   },
   {
     id: 4,
     iconSrc: "/assets/img/icons/lineal/bar-chart.svg",
     title: "Data Analysis",
-    description: "Aenean lacinia bibendum nulla sed consectetur.",
+    description: "Unlock insights, optimize performance, and drive growth with precise analysis.",
   },
 ];
 export const features11 = [

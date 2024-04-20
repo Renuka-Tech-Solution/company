@@ -1,5 +1,5 @@
 <template>
-  <section class="wrapper bg-light mb-16">
+  <section class="wrapper bg-light mt-10 mb-8 mb-lg-12">
     <div class="container">
       <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
         <div class="col-lg-7 order-lg-2">

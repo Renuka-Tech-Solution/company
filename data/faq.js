@@ -70,19 +70,18 @@ export const faq3 = [
 export const faq4 = [
   {
     id: 1,
-    question: `Professional Design`,
-    answer: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel.`,
+    question: `Shopify Certified Partners`,
+    answer: `Trusted Shopify partners offer tailored solutions, seamless integration, exceptional support, and innovative, results-driven approaches for client-centric success and scalable growth.`,
   },
   {
     id: 2,
-    question: `
-Top-Notch Support`,
-    answer: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel.`,
+    question: `Professional Design`,
+    answer: `We're seasoned professionals, blending creativity with client collaboration, to deliver top-notch designs promptly, without compromising quality or attention to detail.`,
   },
   {
     id: 3,
-    question: `Header and Slider Options`,
-    answer: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel.`,
+    question: `Top-Notch Support`,
+    answer: `Years of expertise, personalized service, prompt support, proactive solutions, client-centric approach, transparent communication, continuous improvement, trustworthy partnership, flexible solutions, dedication to excellence.`,
   },
 ];
 

@@ -7,6 +7,7 @@
       <HomesHome1Process />
       <HomesHome1Team />
       <HomesHome1Features />
+      <HomesHome1Pricing />
     </div>
     <FootersFooter1 />
   </div>
