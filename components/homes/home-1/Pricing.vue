@@ -17,13 +17,12 @@
         <div class="col-lg-5">
           <h2 class="fs-16 text-uppercase text-muted mb-3">Let’s Talk</h2>
           <h3 class="display-4 mb-3">
-            Let's make something great together. We are trusted by over 400+
-            clients.
+            Let's make something great together. We are trusted by over 400+ clients.
           </h3>
           <p>
-            Turning visions into standout online experiences. Specialists in
-            website development, Shopify services, and beyond. Trust us to bring
-            your digital dreams to life with expertise and innovation.
+            Turning visions into standout online experiences. Specialists in website
+            development, Shopify services, and beyond. Trust us to bring your digital
+            dreams to life with expertise and innovation.
           </p>
           <!-- <nuxt-link to="/signup" class="btn btn-primary rounded-pill mt-2"
             >Join Us</nuxt-link

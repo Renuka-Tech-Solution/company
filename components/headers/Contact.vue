@@ -1,5 +1,5 @@
 <template>
-  <header class="wrapper bg-soft-primary">
+  <header class="wrapper bg-light">
     <nav
       :class="`navbar navbar-expand-lg center-nav transparent position-absolute  ${
         addClass2 ? 'fixed navbar-clone' : ''
@@ -12,13 +12,7 @@
       <div class="container flex-lg-row flex-nowrap align-items-center">
         <div class="navbar-brand w-100">
           <nuxt-link to="/">
-           <HeadersHeader-Logo />
-            <nuxt-img
-              class="logo-light"
-              src="/assets/img/logo-light.png"
-              srcset="/assets/img/logo-light@2x.png 2x"
-              alt="photo"
-            />
+            <HeadersHeader-Logo />
           </nuxt-link>
         </div>
         <div

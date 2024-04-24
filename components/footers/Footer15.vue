@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div class="container pt-14 pt-md-18 pb-7">
-      <div class="card bg-soft-primary mb-8">
+      <div class="card bg-light mb-8">
         <div class="card-body p-12">
           <div class="row gx-md-8 gx-xl-12 gy-10">
             <div class="col-lg-6">

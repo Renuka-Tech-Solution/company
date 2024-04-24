@@ -1,5 +1,5 @@
 <template>
-  <header class="wrapper bg-soft-primary">
+  <header class="position-absolute w-100">
     <nav
       :class="`navbar navbar-expand-lg center-nav transparent navbar-light ${
         addClass2 ? 'fixed navbar-clone' : ''
@@ -8,7 +8,6 @@
       <div class="container flex-lg-row flex-nowrap align-items-center">
         <div class="navbar-brand w-100">
           <!-- Company Header Logo -->
-          
           <nuxt-link to="/">
             <HeadersHeader-Logo />
           </nuxt-link>
@@ -18,7 +17,7 @@
           class="navbar-collapse offcanvas offcanvas-nav offcanvas-start"
         >
           <div class="offcanvas-header d-lg-none">
-            <h3 class="text-white fs-30 mb-0">Sandbox</h3>
+            <h3 class="text-white fs-30 mb-0">Tech Renuka</h3>
             <button
               type="button"
               class="btn-close btn-close-white"
@@ -34,7 +33,7 @@
             <!-- /.navbar-nav -->
             <div class="offcanvas-footer d-lg-none">
               <div>
-                <a href="mailto:first.last@email.com" class="link-inverse"
+                <a href="mailto:contact@techrenuka.com" class="link-inverse"
                   >contact@techrenuka.com</a
                 >
                 <br />
@@ -99,16 +98,14 @@
       <div class="offcanvas-body pb-6">
         <div class="widget mb-8">
           <p>
-            Transforming Tomorrow with Today's Solutions.
-            Your IT, Our Expertise – Igniting Growth.
+            Transforming Tomorrow with Today's Solutions. Your IT, Our Expertise –
+            Igniting Growth.
           </p>
         </div>
         <!-- /.widget -->
         <div class="widget mb-8">
           <h4 class="widget-title text-white mb-3">Contact Info</h4>
-          <address>
-            Surat - 395003, Gujarat, India.
-          </address>
+          <address>Surat - 395003, Gujarat, India.</address>
           <a href="mailto:contact@techrenuka.com">contact@techrenuka.com</a><br />
           +91-80000-78982
         </div>

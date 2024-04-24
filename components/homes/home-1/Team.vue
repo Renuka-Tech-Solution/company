@@ -1,7 +1,7 @@
 <template>
   <section class="wrapper bg-gradient-primary">
     <div class="container pb-6 pt-lg-15 pb-md-10 pb-lg-12">
-      <div class="position-relative mt-8 mt-lg-n23 mt-xl-n25">
+      <div class="position-relative mt-10 mt-lg-n23 mt-xl-n25">
         <div class="row text-center">
           <div class="col-lg-8 col-xl-7 col-xxl-6 mx-auto">
             <h2 class="fs-16 text-uppercase text-muted mb-3">Our Team</h2>
@@ -36,7 +36,7 @@
                     :src="elm.avatarSrc"
                     alt="photo"
                   />
-                  <h4 class="mb-1 m-auto">{{ elm.name }}</h4>
+                  <h4 class="mb-1 m-auto text-center">{{ elm.name }}</h4>
                   <div class="meta mb-2 m-auto">{{ elm.position }}</div>
                   <!-- <p class="mb-2">{{ elm.description }}</p>
                   <nav class="nav social mb-0">

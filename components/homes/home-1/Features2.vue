@@ -1,6 +1,6 @@
 <template>
   <section id="snippet-3" class="wrapper bg-light">
-    <div class="container pt-10 pt-sm-10 pt-md-2 pt-lg-17 pb-13 pb-md-15 text-center">
+    <div class="container pt-10 pt-sm-10 pt-md-2 pt-lg-17 pb-13 pb-md-17 text-center">
       <div class="row">
         <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
           <h2 class="fs-15 text-uppercase text-muted mb-3">What We Do?</h2>
@@ -26,7 +26,7 @@
           <div
             v-for="service in services"
             :key="service.id"
-            class="col-md-6 col-xl-4"
+            class="col-md-6 col-xl-4 mb-md-10"
           >
             <div class="card shadow-lg">
               <div class="card-body">
@@ -48,7 +48,11 @@
             <!--/.card -->
           </div>
           <!--/column -->
-          <nuxt-link to="/services" class="btn btn-sm btn-primary rounded-pill w-20 m-auto">More Services</nuxt-link>
+          <nuxt-link
+            to="/services"
+            class="btn btn-sm btn-primary rounded-pill w-20 mx-auto mt-10 mt-md-5"
+            >More Services</nuxt-link
+          >
         </div>
         <!--/.row -->
       </div>

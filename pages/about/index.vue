@@ -3,7 +3,7 @@
     <HeadersAbout />
     <AboutAbout2Hero />
     <AboutAbout2Skills />
-    <section class="wrapper bg-gray">
+    <section class="wrapper bg-light">
       <div class="container py-14 py-md-16">
         <AboutAbout2Process />
         <AboutAbout2Faq />

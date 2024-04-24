@@ -9,7 +9,7 @@
               src="/assets/img/techrenuka-white.png"
               srcset="/assets/img/techrenuka-white.png"
               alt="photo"
-              style="width:9rem;"
+              style="width: 9rem"
             />
             <p class="mb-4">
               © {{ new Date().getFullYear() }} Tech Renuka. All rights reserved.
@@ -26,9 +26,7 @@
         <div class="col-md-4 col-lg-4">
           <div class="widget">
             <h4 class="widget-title text-white mb-3">Contact</h4>
-            <address class="pe-xl-15 pe-xxl-17">
-              Surat, Gujarat, India
-            </address>
+            <address class="pe-xl-15 pe-xxl-17">Surat, Gujarat, India</address>
             <a href="mailto:contact@techrenuka.com">contact@techrenuka.com</a><br />
             +91-80000-78982
           </div>

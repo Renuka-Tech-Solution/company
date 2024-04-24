@@ -1,5 +1,5 @@
 <template>
-  <section class="wrapper bg-soft-primary">
+  <section class="wrapper bg-light">
     <div class="container pt-10 pb-20 pt-md-14 pb-md-23 text-center">
       <div class="row">
         <div class="col-xl-5 mx-auto mb-6">

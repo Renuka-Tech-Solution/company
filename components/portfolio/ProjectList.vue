@@ -7,16 +7,13 @@
             <div class="project grid grid-view">
               <div class="row g-6 isotope" ref="isotopeContainer1">
                 <div class="item col-md-6">
-                  <div
-                    class="project-details d-flex justify-content-center flex-column"
-                  >
+                  <div class="project-details d-flex justify-content-center flex-column">
                     <div class="post-header">
                       <!-- <div class="post-category text-red mb-3">Ideas</div> -->
                       <h2 class="post-title display-1 mb-3">Bloom-s</h2>
                     </div>
                     <!-- /.post-header -->
                     <div class="post-content">
-
                       <nuxt-link
                         to="https://bloom-s.de/"
                         class="display-6 hover link-black"
@@ -42,9 +39,7 @@
                     }"
                   >
                     <div
-                      @click="
-                        () => setActiveLightBox(true, index, ieadsProjects)
-                      "
+                      @click="() => setActiveLightBox(true, index, ieadsProjects)"
                       class="cursor-pointer"
                     >
                       <nuxt-img :src="item.imageUrl" alt="photo" />
@@ -59,18 +54,14 @@
             <div class="project grid grid-view">
               <div class="row g-6 isotope" ref="isotopeContainer2">
                 <div class="item col-md-6">
-                  <div
-                    class="project-details d-flex justify-content-center flex-column"
-                  >
+                  <div class="project-details d-flex justify-content-center flex-column">
                     <div class="post-header">
                       <!-- <div class="post-category text-yellow mb-3"></div> -->
                       <h2 class="post-title display-1 mb-3">Farola Learning</h2>
                     </div>
                     <!-- /.post-header -->
                     <div class="post-content">
-                      <nuxt-link
-                        to="/single-project"
-                        class="hover link-yellow display-6"
+                      <nuxt-link to="/single-project" class="hover link-yellow display-6"
                         >Visit Website</nuxt-link
                       >
                     </div>
@@ -93,9 +84,7 @@
                     }"
                   >
                     <div
-                      @click="
-                        () => setActiveLightBox(true, index, conceptProjects)
-                      "
+                      @click="() => setActiveLightBox(true, index, conceptProjects)"
                       class="cursor-pointer"
                     >
                       <nuxt-img :src="item.imageUrl" alt="photo" />
@@ -110,9 +99,7 @@
             <div class="project grid grid-view">
               <div class="row g-6 isotope" ref="isotopeContainer3">
                 <div class="item col-md-6">
-                  <div
-                    class="project-details d-flex justify-content-center flex-column"
-                  >
+                  <div class="project-details d-flex justify-content-center flex-column">
                     <div class="post-header">
                       <!-- <div class="post-category text-green mb-3">
                         Still Life
@@ -121,9 +108,7 @@
                     </div>
                     <!-- /.post-header -->
                     <div class="post-content">
-                      <nuxt-link
-                        to="/single-project"
-                        class="hover link-green display-6"
+                      <nuxt-link to="/single-project" class="hover link-green display-6"
                         >Visit website</nuxt-link
                       >
                     </div>
@@ -146,9 +131,7 @@
                     }"
                   >
                     <div
-                      @click="
-                        () => setActiveLightBox(true, index, stillLifeProjects)
-                      "
+                      @click="() => setActiveLightBox(true, index, stillLifeProjects)"
                       class="cursor-pointer"
                     >
                       <nuxt-img :src="item.imageUrl" alt="photo" />
@@ -163,18 +146,14 @@
             <div class="project grid grid-view">
               <div class="row g-6 isotope" ref="isotopeContainer4">
                 <div class="item col-md-6">
-                  <div
-                    class="project-details d-flex justify-content-center flex-column"
-                  >
+                  <div class="project-details d-flex justify-content-center flex-column">
                     <div class="post-header">
                       <!-- <div class="post-category text-leaf mb-3">Workshop</div> -->
                       <h2 class="post-title mb-3 display-1">Vanika Jewels</h2>
                     </div>
                     <!-- /.post-header -->
                     <div class="post-content">
-                      <nuxt-link
-                        to="/single-project"
-                        class="hover link-red display-6"
+                      <nuxt-link to="/single-project" class="hover link-red display-6"
                         >Visit Website</nuxt-link
                       >
                     </div>
@@ -196,9 +175,7 @@
                     }"
                   >
                     <div
-                      @click="
-                        () => setActiveLightBox(true, index, workshopProjects)
-                      "
+                      @click="() => setActiveLightBox(true, index, workshopProjects)"
                       class="cursor-pointer"
                     >
                       <nuxt-img :src="item.imageUrl" alt="photo" />
@@ -213,26 +190,17 @@
             <div class="project grid grid-view">
               <div class="row g-6 isotope" ref="isotopeContainer5">
                 <div class="item col-md-6">
-                  <div
-                    class="project-details d-flex justify-content-center flex-column"
-                  >
+                  <div class="project-details d-flex justify-content-center flex-column">
                     <div class="post-header">
                       <!-- <div class="post-category text-orange mb-3">
                         Tools & Toys
                       </div> -->
-                      <h2 class="post-title mb-3"></h2>
+                      <h2 class="post-title mb-3 display-1">Jiya Watches</h2>
                     </div>
                     <!-- /.post-header -->
                     <div class="post-content">
-                      <p>
-                        Duis mollis, est non commodo luctus, nisi erat porttitor
-                        ligula, eget lacinia odio sem nec elit.
-                      </p>
-
-                      <nuxt-link
-                        to="/single-project"
-                        class="more hover link-orange"
-                        >See Project</nuxt-link
+                      <nuxt-link to="/single-project" class="display-6 hover link-orange"
+                        >Visit Website</nuxt-link
                       >
                     </div>
                     <!-- /.post-content -->
@@ -254,9 +222,7 @@
                     }"
                   >
                     <div
-                      @click="
-                        () => setActiveLightBox(true, index, toysProjects)
-                      "
+                      @click="() => setActiveLightBox(true, index, toysProjects)"
                       class="cursor-pointer"
                     >
                       <nuxt-img :src="item.imageUrl" alt="photo" />

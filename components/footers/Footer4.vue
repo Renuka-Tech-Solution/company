@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-soft-primary">
+  <footer class="bg-light">
     <div class="container">
       <div class="card shadow-lg mt-n16 mt-md-n21 mb-15 mb-md-14">
         <div class="row gx-0">

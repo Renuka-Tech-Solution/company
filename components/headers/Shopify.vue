@@ -1,5 +1,5 @@
 <template>
-  <header :class="`wrapper ${bg ? bg : 'bg-soft-primary'}`">
+  <header :class="`wrapper ${bg ? bg : 'bg-light'}`">
     <nav
       :class="`navbar navbar-expand-lg center-nav transparent navbar-light ${
         addClass2 ? 'fixed navbar-clone' : ''
@@ -54,9 +54,7 @@
               <HeadersComponentsLanguage />
             </li> -->
             <li class="nav-item d-none d-md-block">
-              <nuxt-link
-                to="/contact"
-                class="btn btn-sm btn-primary rounded-pill"
+              <nuxt-link to="/contact" class="btn btn-sm btn-primary rounded-pill"
                 >Contact</nuxt-link
               >
             </li>

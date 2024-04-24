@@ -1,5 +1,5 @@
 <template>
-  <header :class="`wrapper ${bg ? bg : 'bg-soft-primary'}`">
+  <header :class="`wrapper ${bg ? bg : 'bg-light'}`">
     <nav
       :class="`navbar navbar-expand-lg center-nav transparent navbar-light ${
         addClass2 ? 'fixed navbar-clone' : ''
