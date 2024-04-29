@@ -4,6 +4,8 @@
       <div class="row mt-6">
         <div class="col-xl-10 mx-auto">
           <div class="projects-tiles">
+
+            <!-- Blooms Start -->
             <div class="project grid grid-view">
               <div class="row g-6 isotope" ref="isotopeContainer1">
                 <div class="item col-md-6">
@@ -26,7 +28,7 @@
                 </div>
                 <!-- /.item -->
                 <div
-                  v-for="(item, index) in ieadsProjects"
+                  v-for="(item, index) in blooms"
                   :key="item.id"
                   class="item col-md-6"
                 >
@@ -39,7 +41,7 @@
                     }"
                   >
                     <div
-                      @click="() => setActiveLightBox(true, index, ieadsProjects)"
+                      @click="() => setActiveLightBox(true, index, blooms)"
                       class="cursor-pointer"
                     >
                       <nuxt-img :src="item.imageUrl" alt="photo" />
@@ -50,18 +52,20 @@
               </div>
               <!-- /.row -->
             </div>
-            <!-- /.project -->
+            <!-- Blooms End -->
+
+            <!-- Fayola Learning Start -->
             <div class="project grid grid-view">
               <div class="row g-6 isotope" ref="isotopeContainer2">
                 <div class="item col-md-6">
                   <div class="project-details d-flex justify-content-center flex-column">
                     <div class="post-header">
                       <!-- <div class="post-category text-yellow mb-3"></div> -->
-                      <h2 class="post-title display-1 mb-3">Farola Learning</h2>
+                      <h2 class="post-title display-1 mb-3">Fayola Learning</h2>
                     </div>
                     <!-- /.post-header -->
                     <div class="post-content">
-                      <nuxt-link to="/single-project" class="hover link-yellow display-6"
+                      <nuxt-link to="https://www.fayolalearning.com/" class="hover link-yellow display-6"
                         >Visit Website</nuxt-link
                       >
                     </div>
@@ -71,7 +75,7 @@
                 </div>
                 <!-- /.item -->
                 <div
-                  v-for="(item, index) in conceptProjects"
+                  v-for="(item, index) in fayolalearning"
                   :key="item.id"
                   class="item col-md-6"
                 >
@@ -84,7 +88,7 @@
                     }"
                   >
                     <div
-                      @click="() => setActiveLightBox(true, index, conceptProjects)"
+                      @click="() => setActiveLightBox(true, index, fayolalearning)"
                       class="cursor-pointer"
                     >
                       <nuxt-img :src="item.imageUrl" alt="photo" />
@@ -95,7 +99,9 @@
               </div>
               <!-- /.row -->
             </div>
-            <!-- /.project -->
+            <!-- Fayola Learning End -->
+
+            <!-- Lohatk Start -->
             <div class="project grid grid-view">
               <div class="row g-6 isotope" ref="isotopeContainer3">
                 <div class="item col-md-6">
@@ -108,7 +114,7 @@
                     </div>
                     <!-- /.post-header -->
                     <div class="post-content">
-                      <nuxt-link to="/single-project" class="hover link-green display-6"
+                      <nuxt-link to="https://www.lohatk.sa/home" class="hover link-green display-6"
                         >Visit website</nuxt-link
                       >
                     </div>
@@ -118,7 +124,7 @@
                 </div>
                 <!-- /.item -->
                 <div
-                  v-for="(item, index) in stillLifeProjects"
+                  v-for="(item, index) in lohatk"
                   :key="item.id"
                   class="item col-md-6"
                 >
@@ -131,7 +137,7 @@
                     }"
                   >
                     <div
-                      @click="() => setActiveLightBox(true, index, stillLifeProjects)"
+                      @click="() => setActiveLightBox(true, index, lohatk)"
                       class="cursor-pointer"
                     >
                       <nuxt-img :src="item.imageUrl" alt="photo" />
@@ -142,7 +148,9 @@
               </div>
               <!-- /.row -->
             </div>
-            <!-- /.project -->
+            <!-- Lohatk End -->
+
+            <!-- Vanika Jewels Start -->
             <div class="project grid grid-view">
               <div class="row g-6 isotope" ref="isotopeContainer4">
                 <div class="item col-md-6">
@@ -153,7 +161,7 @@
                     </div>
                     <!-- /.post-header -->
                     <div class="post-content">
-                      <nuxt-link to="/single-project" class="hover link-red display-6"
+                      <nuxt-link to="https://vanikajewels.com/" class="hover link-red display-6"
                         >Visit Website</nuxt-link
                       >
                     </div>
@@ -162,7 +170,7 @@
                   <!-- /.project-details -->
                 </div>
                 <div
-                  v-for="(item, index) in workshopProjects"
+                  v-for="(item, index) in vanikajewels"
                   :key="item.id"
                   class="item col-md-6"
                 >
@@ -175,7 +183,7 @@
                     }"
                   >
                     <div
-                      @click="() => setActiveLightBox(true, index, workshopProjects)"
+                      @click="() => setActiveLightBox(true, index, vanikajewels)"
                       class="cursor-pointer"
                     >
                       <nuxt-img :src="item.imageUrl" alt="photo" />
@@ -186,7 +194,9 @@
               </div>
               <!-- /.row -->
             </div>
-            <!-- /.project -->
+            <!-- Vanika Jewels End -->
+
+            <!-- Jiya Watches Start -->
             <div class="project grid grid-view">
               <div class="row g-6 isotope" ref="isotopeContainer5">
                 <div class="item col-md-6">
@@ -199,7 +209,7 @@
                     </div>
                     <!-- /.post-header -->
                     <div class="post-content">
-                      <nuxt-link to="/single-project" class="display-6 hover link-orange"
+                      <nuxt-link to="https://jiyawatches.com/" class="display-6 hover link-orange"
                         >Visit Website</nuxt-link
                       >
                     </div>
@@ -209,7 +219,7 @@
                 </div>
                 <!-- /.item -->
                 <div
-                  v-for="(item, index) in toysProjects"
+                  v-for="(item, index) in jiyawatches"
                   :key="item.id"
                   class="item col-md-6"
                 >
@@ -222,7 +232,7 @@
                     }"
                   >
                     <div
-                      @click="() => setActiveLightBox(true, index, toysProjects)"
+                      @click="() => setActiveLightBox(true, index, jiyawatches)"
                       class="cursor-pointer"
                     >
                       <nuxt-img :src="item.imageUrl" alt="photo" />
@@ -233,7 +243,7 @@
               </div>
               <!-- /.row -->
             </div>
-            <!-- /.project -->
+            <!-- Jiya Watches End -->
           </div>
           <!-- /.projects-tiles -->
         </div>
@@ -254,11 +264,11 @@
 <script setup>
 import { directive as VTippy } from "vue-tippy";
 import {
-  ieadsProjects,
-  conceptProjects,
-  stillLifeProjects,
-  workshopProjects,
-  toysProjects,
+  blooms,
+  fayolalearning,
+  lohatk,
+  vanikajewels,
+  jiyawatches,
 } from "~/data/projects";
 const activeLightBox = ref(false);
 const currentSlideIndex = ref();

@@ -195,6 +195,15 @@ export const servicesPage = [
   },
   {
     id: 2,
+    iconSrc: "/assets/img/icons/lineal/flutter.svg",
+    iconColorClass: "text-yellow",
+    title: "Flutter App Development",
+    description:
+      "Crafting efficient, cross-platform mobile applications using Flutter framework for seamless user experiences and broader audience reach.",
+    linkColorClass: "link-green",
+  },
+  {
+    id: 3,
     iconSrc: "/assets/img/icons/lineal/browser.svg",
     iconColorClass: "text-red",
     title: "Web Design & Development",
@@ -203,7 +212,7 @@ export const servicesPage = [
     linkColorClass: "link-red",
   },
   {
-    id: 3,
+    id: 4,
     iconSrc: "/assets/img/icons/lineal/shopify-theme.svg",
     iconColorClass: "text-green",
     title: "Shopify Theme Customization",
@@ -212,7 +221,7 @@ export const servicesPage = [
     linkColorClass: "link-green",
   },
   {
-    id: 4,
+    id: 5,
     iconSrc: "/assets/img/icons/lineal/api.svg",
     iconColorClass: "text-blue",
     title: "API Development",
@@ -221,7 +230,7 @@ export const servicesPage = [
     linkColorClass: "link-blue",
   },
   {
-    id: 5,
+    id: 6,
     iconSrc: "/assets/img/icons/lineal/laravel.svg",
     iconColorClass: "text-blue",
     title: "laravel Upgrades & Development",
@@ -230,7 +239,7 @@ export const servicesPage = [
     linkColorClass: "link-blue",
   },
   {
-    id: 6,
+    id: 7,
     iconSrc: "/assets/img/icons/lineal/code-optimization.svg",
     iconColorClass: "text-blue",
     title: "Code Optimization",
@@ -239,7 +248,7 @@ export const servicesPage = [
     linkColorClass: "link-blue",
   },
   {
-    id: 7,
+    id: 8,
     iconSrc: "/assets/img/icons/lineal/google-merchant-center.svg",
     iconColorClass: "text-blue",
     title: "Google Merchant Service",
@@ -248,7 +257,7 @@ export const servicesPage = [
     linkColorClass: "link-blue",
   },
   {
-    id: 8,
+    id: 9,
     iconSrc: "/assets/img/icons/lineal/website-redesign.png",
     iconColorClass: "text-blue",
     title: "Website Redesign",

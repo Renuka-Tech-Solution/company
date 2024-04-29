@@ -13,7 +13,6 @@
               srcset="/assets/img/logo@2x.png 2x"
               alt="photo"
             />
-            frfg
           </nuxt-link>
         </div>
         <div

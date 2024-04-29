@@ -566,123 +566,119 @@ export const projects10 = [
   },
 ];
 
-export const ieadsProjects = [
+export const blooms = [
   {
     id: 1,
-    title: "Cursus Inceptos Sit",
-    imageUrl: "/assets/img/photos/cs1.jpg",
-    imageUrlFull: "/assets/img/photos/cs1-full.jpg",
+    title: "Bloom-s",
+    imageUrl: "/assets/img/photos/blooms/1.png",
+    imageUrlFull: "/assets/img/photos/blooms/1.png",
   },
   {
     id: 2,
-    title: "Ipsum Egestas Porta",
-    imageUrl: "/assets/img/photos/cs2.jpg",
-    imageUrlFull: "/assets/img/photos/cs2-full.jpg",
+    title: "Bloom-s",
+    imageUrl: "/assets/img/photos/blooms/2.png",
+    imageUrlFull: "/assets/img/photos/blooms/2.png",
   },
   {
     id: 3,
-    title: "Ultricies Cras Tortor",
-    imageUrl: "/assets/img/photos/cs3.jpg",
-    imageUrlFull: "/assets/img/photos/cs3-full.jpg",
+    title: "Bloom-s",
+    imageUrl: "/assets/img/photos/blooms/3.png",
+    imageUrlFull: "/assets/img/photos/blooms/3.png",
   },
-  // Add more items as needed
 ];
 
-export const conceptProjects = [
+export const fayolalearning = [
   {
     id: 4,
-    title: "Purus Tellus Magna",
-    imageUrl: "/assets/img/photos/cs4.jpg",
-    imageUrlFull: "/assets/img/photos/cs4-full.jpg",
+    title: "Fayola Learning",
+    imageUrl: "/assets/img/photos/fayola-learning/1.png",
+    imageUrlFull: "/assets/img/photos/fayola-learning/1.png",
     gallery: "project-2",
   },
   {
     id: 5,
-    title: "Fusce Ipsum Vestibulum",
-    imageUrl: "/assets/img/photos/cs5.jpg",
-    imageUrlFull: "/assets/img/photos/cs5-full.jpg",
+    title: "Fayola Learning",
+    imageUrl: "/assets/img/photos/fayola-learning/2.png",
+    imageUrlFull: "/assets/img/photos/fayola-learning/2.png",
     gallery: "project-2",
   },
   {
     id: 6,
-    title: "Condimentum Parturient Ligula",
-    imageUrl: "/assets/img/photos/cs6.jpg",
-    imageUrlFull: "/assets/img/photos/cs6-full.jpg",
+    title: "Fayola Learning",
+    imageUrl: "/assets/img/photos/fayola-learning/3.png",
+    imageUrlFull: "/assets/img/photos/fayola-learning/3.png",
     gallery: "project-2",
   },
-  // Add more items as needed
 ];
 
-export const stillLifeProjects = [
+export const lohatk = [
   {
     id: 7,
-    title: "Venenatis Amet Ipsum",
-    imageUrl: "/assets/img/photos/cs7.jpg",
-    imageUrlFull: "/assets/img/photos/cs7-full.jpg",
+    title: "Lohatk",
+    imageUrl: "/assets/img/photos/lohatk/1.png",
+    imageUrlFull: "/assets/img/photos/lohatk/1.png",
     gallery: "project-3",
   },
   {
     id: 8,
-    title: "Quam Vehicula Condimentum",
-    imageUrl: "/assets/img/photos/cs8.jpg",
-    imageUrlFull: "/assets/img/photos/cs8-full.jpg",
+    title: "Lohatk",
+    imageUrl: "/assets/img/photos/lohatk/2.png",
+    imageUrlFull: "/assets/img/photos/lohatk/2.png",
     gallery: "project-3",
   },
   {
     id: 9,
-    title: "Commodo Fusce Dapibus",
-    imageUrl: "/assets/img/photos/cs9.jpg",
-    imageUrlFull: "/assets/img/photos/cs9-full.jpg",
+    title: "Lohatk",
+    imageUrl: "/assets/img/photos/lohatk/3.png",
+    imageUrlFull: "/assets/img/photos/lohatk/3.png",
     gallery: "project-3",
   },
-  // Add more items as needed
 ];
 
-export const workshopProjects = [
+export const vanikajewels = [
   {
     id: 10,
-    title: "Cras Ullamcorper Tellus",
-    imageUrl: "/assets/img/photos/cs10.jpg",
-    imageUrlFull: "/assets/img/photos/cs10-full.jpg",
+    title: "Vanika Jewels",
+    imageUrl: "/assets/img/photos/vanikajewels/1.png",
+    imageUrlFull: "/assets/img/photos/vanikajewels/1.png",
     gallery: "project-4",
   },
   {
     id: 11,
-    title: "Quam Bibendum Ornare",
-    imageUrl: "/assets/img/photos/cs11.jpg",
-    imageUrlFull: "/assets/img/photos/cs11-full.jpg",
+    title: "Vanika Jewels",
+    imageUrl: "/assets/img/photos/vanikajewels/2.png",
+    imageUrlFull: "/assets/img/photos/vanikajewels/2.png",
     gallery: "project-4",
   },
   {
     id: 12,
-    title: "Ullamcorper Etiam Malesuada",
-    imageUrl: "/assets/img/photos/cs12.jpg",
-    imageUrlFull: "/assets/img/photos/cs12-full.jpg",
+    title: "Vanika Jewels",
+    imageUrl: "/assets/img/photos/vanikajewels/3.png",
+    imageUrlFull: "/assets/img/photos/vanikajewels/3.png",
     gallery: "project-4",
   },
-  // Add more items as needed
 ];
 
-export const toysProjects = [
+export const jiyawatches = [
   {
     id: 13,
     title: "Aenean Dolor Tristique",
-    imageUrl: "/assets/img/photos/cs13.jpg",
-    imageUrlFull: "/assets/img/photos/cs13-full.jpg",
+    imageUrl: "/assets/img/photos/jiyawatches/1.png",
+    imageUrlFull: "/assets/img/photos/jiyawatches/1.png",
     gallery: "project-5",
   },
   {
     id: 14,
     title: "Magna Ipsum Euismod",
-    imageUrl: "/assets/img/photos/cs14.jpg",
-    imageUrlFull: "/assets/img/photos/cs14-full.jpg",
+    imageUrl: "/assets/img/photos/jiyawatches/2.png",
+    imageUrlFull: "/assets/img/photos/jiyawatches/2.png",
     gallery: "project-5",
   },
   {
     id: 15,
     title: "Fusce Mollis",
-    imageUrl: "/assets/img/photos/cs15.jpg",
-    imageUrlFull: "/assets/img/photos/cs15-full.jpg",
+    imageUrl: "/assets/img/photos/jiyawatches/3.png",
+    imageUrlFull: "/assets/img/photos/jiyawatches/3.png",
     gallery: "project-5",
   },
   // Add more items as needed

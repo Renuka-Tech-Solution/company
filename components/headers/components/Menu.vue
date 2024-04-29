@@ -16,11 +16,11 @@
       >Services</nuxt-link
     >
   </li>
-  <!-- <li class="nav-item">
+  <li class="nav-item">
     <nuxt-link to="/portfolio" :class="`nav-link ${isActiveMenu(about) ? 'active' : ''}`"
       >Portfolio</nuxt-link
     >
-  </li> -->
+  </li>
   <li class="nav-item">
     <nuxt-link to="/about" :class="`nav-link ${isActiveMenu(about) ? 'active' : ''}`"
       >About</nuxt-link

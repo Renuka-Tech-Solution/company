@@ -4,6 +4,7 @@
       <div class="row gy-6 gy-lg-0">
         <div class="col-md-4 col-lg-4">
           <div class="widget">
+            <nuxt-link to="/">
             <nuxt-img
               class="mb-4"
               src="/assets/img/techrenuka-white.png"
@@ -11,6 +12,7 @@
               alt="photo"
               style="width: 9rem"
             />
+            </nuxt-link>
             <p class="mb-4">
               © {{ new Date().getFullYear() }} Tech Renuka. All rights reserved.
               <!-- <br class="d-none d-lg-block" /> -->

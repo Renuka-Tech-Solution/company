@@ -1,6 +1,6 @@
 <template>
   <section id="snippet-3" class="wrapper bg-light">
-    <div class="container pt-10 pt-sm-10 pt-md-2 pt-lg-17 pb-13 pb-md-17 text-center">
+    <div class="container pt-10 pt-sm-10 pt-md-2 pt-lg-17 pb-13 pb-md-15 text-center">
       <div class="row">
         <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
           <h2 class="fs-15 text-uppercase text-muted mb-3">What We Do?</h2>
@@ -22,21 +22,23 @@
           data-rellax-speed="1"
           style="top: -0.5rem; left: -2.5rem; z-index: 0"
         ></div>
-        <div class="row gx-md-5 text-center">
+        <div class="row gx-md-5 text-center mb-3"
+             v-for="(_services, rowIndex ) in  services.chunk_inefficient(3)"
+             :key="rowIndex">
           <div
-            v-for="service in services"
-            :key="service.id"
-            class="col-md-6 col-xl-4 mb-md-10"
+              v-for="(service, rowCardIndex ) in  _services"
+              :key="rowCardIndex"
+              class="col-md-4 col-xl-4"
           >
-            <div class="card shadow-lg">
-              <div class="card-body">
+
+            <div class="card service shadow-lg h-100">
+              <div class="card-body px-3 py-5">
                 <nuxt-img
-                  :src="service.iconSrc"
-                  class="icon-svg icon-svg-md mb-4"
-                  :class="service.iconColorClass"
-                  alt="photo"
+                    :src="service.iconSrc"
+                    class="icon-svg icon-svg-md mb-4"
+                    :class="service.iconColorClass"
+                    alt="photo"
                 />
-                <h4>{{ service.title }}</h4>
                 <p class="mb-2">{{ service.description }}</p>
                 <!-- Skipping link property -->
                 <!-- <a href="#" :class="['more', 'hover', service.linkColorClass]"
@@ -47,12 +49,7 @@
             </div>
             <!--/.card -->
           </div>
-          <!--/column -->
-          <nuxt-link
-            to="/services"
-            class="btn btn-sm btn-primary rounded-pill w-20 mx-auto mt-10 mt-md-5"
-            >More Services</nuxt-link
-          >
+
         </div>
         <!--/.row -->
       </div>
@@ -65,7 +62,10 @@
 </template>
 
 <script setup>
-import { services } from "~/data/features";
+import {services, servicesPage} from "~/data/features";
+
+
+
 </script>
 
 <style lang="scss" scoped></style>
