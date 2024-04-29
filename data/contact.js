@@ -1,4 +1,4 @@
-export const contactInfo = [
+export const aboutContact = [
   {
     id: 1,
     iconClass: "uil uil-location-pin-alt",
@@ -20,7 +20,7 @@ export const contactInfo = [
     mail: "contact@techrenuka.com",
   },
 ];
-export const contactInfo2 = [
+export const contact = [
   {
     id: 1,
     iconClass: "uil uil-location-pin-alt",

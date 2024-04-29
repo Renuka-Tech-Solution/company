@@ -1,10 +1,10 @@
 <template>
   <div class="content-wrapper">
     <HeadersContact />
-    <ContactContact1Hero />
-    <ContactContact1ContactInfo />
+    <ContactHero />
+    <ContactInfo />
   </div>
-  <FootersFooter1 />
+  <FootersFooter />
 </template>
 
 <script setup>

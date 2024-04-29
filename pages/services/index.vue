@@ -1,17 +1,17 @@
 <template>
   <div class="content-wrapper">
     <HeadersServices/>
-    <ServicesService1Hero />
+    <ServicesHero />
     <section class="wrapper bg-light angled upper-end">
       <div class="container pb-14 pb-md-16">
-        <ServicesService1Facts />
-        <ServicesService1Features />
-        <ServicesService1Process />
+        <ServicesCounter />
+        <ServicesFeatures />
+        <ServicesProcess />
       </div>
     </section>
-    <ServicesService1Cta />
+    <ServicesCtaVideo />
   </div>
-  <FootersFooter1 />
+  <FootersFooter />
 </template>
 
 <script setup>

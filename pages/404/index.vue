@@ -8,8 +8,8 @@
 
 <script setup>
 useSeoMeta({
-  title: "Not found || Sandbox - Modern & Multipurpose Nuxtjs Template",
-  description: "Sandbox - Modern & Multipurpose Nuxtjs Template",
+  title: "Not found - Tech Renuka",
+  description: "",
 });
 </script>
 

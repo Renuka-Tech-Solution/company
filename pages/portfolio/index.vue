@@ -4,7 +4,7 @@
     <PortfolioHero />
     <PortfolioProjectList />
   </div>
-  <FootersFooter1 />
+  <FootersFooter />
 </template>
 
 <script setup>

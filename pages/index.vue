@@ -2,14 +2,14 @@
   <div class="yellow-theme thicccboi-font">
     <div class="content-wrapper">
       <HeadersWelcome />
-      <HomesHome1Hero />
-      <HomesHome1Features2 />
-      <HomesHome1Process />
-      <HomesHome1Team />
-      <HomesHome1Features />
-      <HomesHome1Pricing />
+      <HomeHero />
+      <HomeService />
+      <HomeStrategy />
+      <HomeTeam />
+      <HomeOurSolutions />
+      <HomeClients />
     </div>
-    <FootersFooter1 />
+    <FootersFooter />
   </div>
 </template>
 

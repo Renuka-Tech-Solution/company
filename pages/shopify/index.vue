@@ -1,13 +1,13 @@
 <template>
   <div class="content-wrapper">
     <HeadersShopify />
-    <ServicesShopifyHero />
-    <ServicesShopifyFeatures />
-    <ServicesShopifyProcess />
-    <ServicesShopifyService />
-    <ServicesShopifyClients />
+    <ShopifyHero />
+    <ShopifyWhatWeOffer />
+    <ShopifyProvide />
+    <ShopifyService />
+    <ShopifyClients />
   </div>
-  <FootersFooter1 />
+  <FootersFooter />
 </template>
 
 <script setup>
