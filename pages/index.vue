@@ -14,6 +14,7 @@
 </template>
 
 <script setup>
+import chunk from "~/utlis/chunk"
 useSeoMeta({
   title: "Tech Renuka",
   description: "Code, Create, Connect",

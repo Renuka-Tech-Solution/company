@@ -24,7 +24,7 @@
         ></div>
 
         <div class="row gx-md-5 text-center mb-3" 
-        v-for="(services, rowIndex ) in  servicesPage.chunk_inefficient(3)"             
+        v-for="(services, rowIndex ) in  chunk( servicesPage, 3)"             
         :key="rowIndex">
           <div
             v-for="(service, rowCardIndex ) in  services"
@@ -65,6 +65,7 @@
 <script setup>
 import { servicesPage } from "~/data/features";
 
+import chunk from "~/utlis/chunk"
 
 
 </script>
