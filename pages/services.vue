@@ -1,6 +1,6 @@
 <template>
   <div class="content-wrapper">
-    <HeadersServices/>
+    <HeadersMenu/>
     <ServicesHero />
     <section class="wrapper bg-light angled upper-end">
       <div class="container pb-14 pb-md-16">

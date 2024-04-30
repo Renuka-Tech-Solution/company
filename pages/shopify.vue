@@ -1,6 +1,6 @@
 <template>
   <div class="content-wrapper">
-    <HeadersShopify />
+    <HeadersMenu />
     <ShopifyHero />
     <ShopifyWhatWeOffer />
     <ShopifyProvide />

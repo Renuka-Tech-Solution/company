@@ -1,6 +1,6 @@
 <template>
   <div class="content-wrapper">
-    <HeadersPortfolio bg="bg-white" />
+    <HeadersMenu bg="bg-white" />
     <PortfolioHero />
     <PortfolioProjectList />
   </div>

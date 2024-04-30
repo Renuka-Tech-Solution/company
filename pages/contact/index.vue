@@ -1,6 +1,6 @@
 <template>
   <div class="content-wrapper">
-    <HeadersContact />
+    <HeadersMenu />
     <ContactHero />
     <ContactInfo />
   </div>

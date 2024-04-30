@@ -5,7 +5,9 @@
     >
   </li>
   <li class="nav-item">
-    <nuxt-link to="/shopify" :class="`nav-link ${isActiveMenu(shopify) ? 'active' : ''}`"
+    <nuxt-link
+      to="/shopify"
+      :class="`nav-link ${isActiveMenu(shopify) ? 'active' : ''}`"
       >Shopify</nuxt-link
     >
   </li>
@@ -17,12 +19,16 @@
     >
   </li>
   <li class="nav-item">
-    <nuxt-link to="/portfolio" :class="`nav-link ${isActiveMenu(about) ? 'active' : ''}`"
+    <nuxt-link
+      to="/portfolio"
+      :class="`nav-link ${isActiveMenu(portfolio) ? 'active' : ''}`"
       >Portfolio</nuxt-link
     >
   </li>
   <li class="nav-item">
-    <nuxt-link to="/about" :class="`nav-link ${isActiveMenu(about) ? 'active' : ''}`"
+    <nuxt-link
+      to="/about"
+      :class="`nav-link ${isActiveMenu(about) ? 'active' : ''}`"
       >About</nuxt-link
     >
   </li>
@@ -59,4 +65,5 @@ const isActiveMenu = (menu, menuItem) => {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+</style>

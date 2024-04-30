@@ -1,7 +1,7 @@
 <template>
   <div class="yellow-theme thicccboi-font">
     <div class="content-wrapper">
-      <HeadersWelcome />
+      <HeadersMenu />
       <HomeHero />
       <HomeService />
       <HomeStrategy />
@@ -19,7 +19,7 @@ useSeoMeta({
   title: "Tech Renuka",
   description: "Code, Create, Connect",
 });
-import CompanyHeader from "~/components/headers/Welcome.vue";
+// import CompanyHeader from "~/components/headers/Menu.vue";
 </script>
 
 <style lang="scss"></style>

@@ -10,7 +10,7 @@ export const shopify = [
   {
     id: 1,
     name: "Shopify",
-    route: "/shopify/index.vue",
+    route: "/shopify",
   }
 ];
 
@@ -18,7 +18,7 @@ export const services = [
   {
     id: 1,
     name: "Services",
-    route: "/services/index.vue",
+    route: "/services",
   }
 ];
 
@@ -26,7 +26,7 @@ export const about = [
   {
     id: 1,
     name: "About",
-    route: "/about/index.vue",
+    route: "/about",
   }
 ];
 
@@ -34,6 +34,6 @@ export const portfolio = [
   {
     id: 1,
     name: "Portfolio",
-    route: "/portfolio/index.vue",
+    route: "/portfolio",
   }
 ];

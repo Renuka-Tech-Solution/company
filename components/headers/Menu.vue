@@ -49,11 +49,10 @@
           <!-- /.offcanvas-body -->
         </div>
         <!-- /.navbar-collapse -->
-        <div class="navbar-other w-100 d-flex ms-auto">
+
+        <!-- i Button Code -->
+        <div v-if="isWelcome" class="navbar-other w-100 d-flex ms-auto">
           <ul class="navbar-nav flex-row align-items-center ms-auto">
-            <!-- <li class="nav-item dropdown language-select text-uppercase">
-              <HeadersComponentsLanguage />
-            </li> -->
             <li class="nav-item">
               <a
                 class="nav-link"
@@ -68,8 +67,26 @@
               </button>
             </li>
           </ul>
-          <!-- /.navbar-nav -->
         </div>
+
+        <!-- Contact Button Code -->
+        <div v-else class="navbar-other w-100 d-flex ms-auto">
+          <ul class="navbar-nav flex-row align-items-center ms-auto">
+            <li class="nav-item d-none d-md-block">
+              <nuxt-link
+                to="/contact"
+                class="btn btn-sm btn-primary rounded-pill"
+                >Contact</nuxt-link
+              >
+            </li>
+            <li class="nav-item d-lg-none" ofCanvasToggle2="offcanvas2">
+              <button @click="menuOpen" class="hamburger offcanvas-nav-btn">
+                <span></span>
+              </button>
+            </li>
+          </ul>
+        </div>
+
         <!-- /.navbar-other -->
         <div
           id="offcanvasBackdrop"
@@ -98,24 +115,19 @@
       <div class="offcanvas-body pb-6">
         <div class="widget mb-8">
           <p>
-            Transforming Tomorrow with Today's Solutions. Your IT, Our Expertise –
-            Igniting Growth.
+            Transforming Tomorrow with Today's Solutions. Your IT, Our Expertise
+            – Igniting Growth.
           </p>
         </div>
         <!-- /.widget -->
         <div class="widget mb-8">
           <h4 class="widget-title text-white mb-3">Contact Info</h4>
           <address>Surat - 395003, Gujarat, India.</address>
-          <a href="mailto:contact@techrenuka.com">contact@techrenuka.com</a><br />
+          <a href="mailto:contact@techrenuka.com">contact@techrenuka.com</a
+          ><br />
           +91-80000-78982
         </div>
-        <!-- Learn More Start -->
-        <!-- <div class="widget mb-8">
-          <h4 class="widget-title text-white mb-3">Learn More</h4>
-          <ul class="list-unstyled">
-            <HeadersComponentsLinks />
-          </ul>
-        </div> -->
+
         <!-- Learn More End -->
         <div class="widget">
           <h4 class="widget-title text-white mb-3">Follow Us</h4>
@@ -133,6 +145,14 @@
 </template>
 
 <script setup>
+import { ref, computed } from "vue";
+import { useRouter } from "vue-router";
+const router = useRouter();
+
+const isWelcome = computed(() => 
+    router.currentRoute.value.path === "/"
+);
+
 const menuOpen = () => {
   document.getElementById("ofCanvasBody").classList.toggle("show");
   document.getElementById("offcanvasBackdrop").style.display = "block";

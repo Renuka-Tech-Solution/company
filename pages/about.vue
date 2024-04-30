@@ -1,6 +1,6 @@
 <template>
   <div class="content-wrapper">
-    <HeadersAbout />
+    <HeadersMenu />
     <AboutHero />
     <AboutSkills />
     <section class="wrapper bg-light">

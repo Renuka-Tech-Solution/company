@@ -20,7 +20,7 @@
           id="ofCanvasBody"
         >
           <div class="offcanvas-header d-lg-none">
-            <h3 class="text-white fs-30 mb-0">Sandbox</h3>
+            <h3 class="text-white fs-30 mb-0">Tech Renuka</h3>
             <button
               type="button"
               class="btn-close btn-close-white"
@@ -36,11 +36,11 @@
             <!-- /.navbar-nav -->
             <div class="offcanvas-footer d-lg-none">
               <div>
-                <a href="mailto:first.last@email.com" class="link-inverse"
-                  >info@email.com</a
+                <a href="mailto:contact@techrenuka.com" class="link-inverse"
+                  >contact@techrenuka.com</a
                 >
                 <br />
-                00 (123) 456 78 90 <br />
+                +91-80000-78982 <br />
                 <nav class="nav social social-white mt-4">
                   <HeadersComponentsSocials />
                 </nav>
