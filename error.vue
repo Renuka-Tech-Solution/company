@@ -21,8 +21,8 @@ const props = defineProps({
   error: Object,
 });
 useSeoMeta({
-  title: ` ${props.error.statusCode == 404 ? "Page not found" : "An error found"}  || Sandbox - Modern & Multipurpose Nuxtjs Template`,
-  description: "Sandbox - Modern & Multipurpose Nuxtjs Template",
+  title: ` ${props.error.statusCode == 404 ? "Page not found" : "An error found"}  || Renuka Tech Solution`,
+  description: "Renuka Tech Solution",
 });
 </script>
 

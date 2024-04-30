@@ -29,7 +29,7 @@
           <div
             v-for="(service, rowCardIndex ) in  services"
             :key="rowCardIndex"
-            class="col-md-4 col-xl-4"
+            class="col-md-4 col-xl-4 mb-3"
           >
 
             <div class="card service shadow-lg h-100">
