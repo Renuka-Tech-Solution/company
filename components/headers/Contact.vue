@@ -1,5 +1,5 @@
 <template>
-  <header class="wrapper bg-light">
+  <header class="wrapper bg-light text-primary">
     <nav
       :class="`navbar navbar-expand-lg center-nav transparent position-absolute  ${
         addClass2 ? 'fixed navbar-clone' : ''
