@@ -1,0 +1,9 @@
+<template>
+    <nuxt-img
+              src="/assets/img/techrenuka.png"
+              srcset="/assets/img/techrenuka.png"
+              alt="photo"
+              class="w-30"
+              style="width:9rem;"
+            />
+</template>
