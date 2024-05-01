@@ -7,8 +7,8 @@
             <nuxt-link to="/">
             <nuxt-img
               class="mb-4"
-              src="/assets/img/techrenuka-white.png"
-              srcset="/assets/img/techrenuka-white.png"
+              src="/assets/img/logo/6.png"
+              srcset="/assets/img/logo/6.png"
               alt="photo"
               style="width: 9rem"
             />
