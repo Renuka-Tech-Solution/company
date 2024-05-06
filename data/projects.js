@@ -94,21 +94,21 @@ export const vanikajewels = [
 export const jiyawatches = [
   {
     id: 13,
-    title: "Aenean Dolor Tristique",
+    title: "Jiya Watches",
     imageUrl: "/assets/img/photos/jiyawatches/1.png",
     imageUrlFull: "/assets/img/photos/jiyawatches/1.png",
     gallery: "project-5",
   },
   {
     id: 14,
-    title: "Magna Ipsum Euismod",
+    title: "Jiya Watches",
     imageUrl: "/assets/img/photos/jiyawatches/2.png",
     imageUrlFull: "/assets/img/photos/jiyawatches/2.png",
     gallery: "project-5",
   },
   {
     id: 15,
-    title: "Fusce Mollis",
+    title: "Jiya Watches",
     imageUrl: "/assets/img/photos/jiyawatches/3.png",
     imageUrlFull: "/assets/img/photos/jiyawatches/3.png",
     gallery: "project-5",

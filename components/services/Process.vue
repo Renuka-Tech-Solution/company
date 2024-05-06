@@ -5,7 +5,7 @@
     have the perfect control.
   </p>
   <div class="row gx-lg-8 gx-xl-12 gy-6 process-wrapper line">
-    <div v-for="(item, index) in aboutWorks" class="col-md-6 col-lg-3" :key="index">
+    <div v-for="(item, index) in serviceHowDo" class="col-md-6 col-lg-3" :key="index">
       <span
         :class="[
           'icon',
@@ -17,7 +17,7 @@
           'mb-4',
         ]"
       >
-        <span class="number">0{{ item.id }}</span>
+        <span class="number">{{ item.id }}</span>
       </span>
       <h4 class="mb-1">{{ item.title }}</h4>
       <p class="mb-0">{{ item.description }}</p>
@@ -27,7 +27,7 @@
 </template>
 
 <script setup>
-import { aboutWorks } from "~/data/process";
+import { serviceHowDo } from "~/data/process";
 </script>
 
 <style lang="scss" scoped></style>
