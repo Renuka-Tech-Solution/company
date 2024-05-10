@@ -13,14 +13,21 @@ export const teamMembers2 = [
   },
   {
     id: 3,
+    avatarSrc: "/assets/img/avatars/alex-oritogun.png",
+    name: "Alex Oritogun",
+    position: "Business Development Manager",
+  },
+  {
+    id: 4,
     avatarSrc: "/assets/img/avatars/ghanashyam-solanki.png",
     name: "Ghanashyam Solanki",
     position: "Backend Developer",
   },
   {
-    id: 4,
+    id: 5,
     avatarSrc: "/assets/img/avatars/shailesh-makwana.png",
     name: "Shailesh Makwana",
     position: "Frontend Developer",
   },
+  
 ];

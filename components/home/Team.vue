@@ -23,9 +23,9 @@
           ></div>
           <div class="row grid-view gy-xl-0">
             <div
-              v-for="(elm, i) in teamMembers2.slice(0, 4)"
+              v-for="(elm, i) in teamMembers2"
               :key="i"
-              class="col-md-6 col-xl-3 mb-3"
+              class="col-md-6 col-xl-4 mb-3"
             >
               <div class="card shadow-lg">
                 <div
