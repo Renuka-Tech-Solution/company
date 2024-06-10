@@ -39,3 +39,30 @@ export const aboutWorks = [
     description: "Transforming visions into captivating, user-centric digital experiences. Pure magic!",
   },
 ];
+
+export const serviceHowDo = [
+  {
+    id: "01",
+    title: "Concept",
+    description:
+      "Craft initial vision, aligning your goals with innovative design concepts for your website development.",
+  },
+  {
+    id: "02",
+    title: "Prepare",
+    description:
+      "Develop a robust framework, laying the foundation for a seamless user experience and functionality.",
+  },
+  {
+    id: "03",
+    title: "Retouch",
+    description:
+      "Refine and polish every detail, ensuring your website is visually stunning and flawlessly functional.",
+  },
+  {
+    id: "04",
+    title: "Finalize",
+    description:
+      "Launch your website with confidence, providing you with full control and stress-free management of your online presence.",
+  },
+];

@@ -1,7 +1,7 @@
 <template>
     <nuxt-img
-              src="/assets/img/techrenuka.png"
-              srcset="/assets/img/techrenuka.png"
+              src="/assets/img/logo/4.png"
+              srcset="/assets/img/logo/4.png"
               alt="photo"
               class="w-30"
               style="width:9rem;"

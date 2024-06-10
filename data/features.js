@@ -142,7 +142,7 @@ export const servicesPage = [
     iconColorClass: "text-blue",
     title: "Website Redesign",
     description:
-      "Already having a Laravel application with you? And looking for help in upgrading it? or maybe optimization; Tech Renuka is at your service! Our Certified Team of Developers would love to help you out!",
+      "Transform your online presence with our expert website redesign service. Elevate aesthetics, functionality, and user experience for enhanced engagement and results.",
     linkColorClass: "link-blue",
   },
 ];

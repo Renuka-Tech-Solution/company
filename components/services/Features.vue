@@ -40,11 +40,13 @@
                   :class="service.iconColorClass"
                   alt="photo"
                 />
+                <h4>{{ service.title }}</h4>
                 <p class="mb-2">{{ service.description }}</p>
                 <!-- Skipping link property -->
                 <!-- <a href="#" :class="['more', 'hover', service.linkColorClass]"
                   >Learn More</a
                 > -->
+                
               </div>
               <!--/.card-body -->
             </div>
@@ -54,6 +56,7 @@
         </div>
         <!--/.row -->
       </div>
+      
       <!-- /.position-relative -->
     </div>
     <!-- /.container -->

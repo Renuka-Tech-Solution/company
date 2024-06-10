@@ -1,5 +1,5 @@
 <template>
-  <div class="yellow-theme thicccboi-font">
+  <div class="thicccboi-font">
     <div class="content-wrapper">
       <HeadersMenu />
       <HomeHero />
