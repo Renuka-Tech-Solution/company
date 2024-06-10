@@ -1,1 +1,0 @@
-import{u as s,c as a,a as _,b as e,F as c,r,o as p,_ as d,d as u}from"./C0SowVlk.js";const m={class:"content-wrapper"},N={__name:"index",setup(l){return s({title:"Not found - Tech Renuka",description:""}),(i,F)=>{const o=d,t=r("NotFound404"),n=u;return p(),a(c,null,[_("div",m,[e(o,{bg:"bg-light"}),e(t)]),e(n)],64)}}};export{N as default};

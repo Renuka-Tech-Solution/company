@@ -3,7 +3,7 @@ export const teamMembers2 = [
     id: 1,
     avatarSrc: "/assets/img/avatars/mukesh-ashtekar.png",
     name: "Mukesh Ashtekar",
-    position: "Full Stack Developer",
+    position: "Chief Technical Officer",
   },
   {
     id: 2,

@@ -8,5 +8,8 @@ export default defineNuxtConfig({
     }
   },
   devtools: { enabled: true },
-  modules: ["@nuxt/image"]
+  modules: ["@nuxt/image", "nuxt-gtag"],
+  gtag: {
+    id: 'G-QS8JJ2RVES'
+  }
 })
