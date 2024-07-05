@@ -1,7 +1,7 @@
 <template>
   <section class="wrapper bg-light angled upper-start lower-start">
     <div class="container py-3 pt-lg-5 pb-lg-5">
-      <div class="row gx-md-8 gx-xl-12 gy-10 mb-14 mb-md-10 align-items-center">
+      <div class="row gx-md-8 gx-xl-12 gy-10 mb-14 mb-md-15 align-items-center">
         <div class="col-lg-6">
           <h2 class="fs-16 text-uppercase text-muted mb-3">Our Strategy</h2>
           <h3 class="display-4 mb-5">

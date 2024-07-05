@@ -114,3 +114,28 @@ export const jiyawatches = [
     gallery: "project-5",
   },
 ];
+
+export const kingsmanjewels = [
+  {
+    id: 16,
+    title: "Kingsman Jewels",
+    imageUrl: "/assets/img/photos/kingsmanjewels/1.png",
+    imageUrlFull: "/assets/img/photos/kingsmanjewels/1.png",
+    gallery: "project-6",
+  },
+  {
+    id: 17,
+    title: "Kingsman Jewels",
+    imageUrl: "/assets/img/photos/kingsmanjewels/2.png",
+    imageUrlFull: "/assets/img/photos/kingsmanjewels/2.png",
+    gallery: "project-6",
+  },
+  {
+    id: 18,
+    title: "Kingsman Jewels",
+    imageUrl: "/assets/img/photos/kingsmanjewels/3.png",
+    imageUrlFull: "/assets/img/photos/kingsmanjewels/3.png",
+    gallery: "project-6",
+  },
+];
+

@@ -244,6 +244,55 @@
               <!-- /.row -->
             </div>
             <!-- Jiya Watches End -->
+
+            <!-- Kingsman Jewels Start -->
+            <div class="project grid grid-view">
+              <div class="row g-6 isotope" ref="isotopeContainer5">
+                <div class="item col-md-6">
+                  <div class="project-details d-flex justify-content-center flex-column">
+                    <div class="post-header">
+                      <!-- <div class="post-category text-orange mb-3">
+                        Tools & Toys
+                      </div> -->
+                      <h2 class="post-title mb-3 display-1">Kingsman Jewels</h2>
+                    </div>
+                    <!-- /.post-header -->
+                    <div class="post-content">
+                      <nuxt-link to="https://kingsmanjewels.com/" class="display-6 hover link-blue"
+                        >Visit Website</nuxt-link
+                      >
+                    </div>
+                    <!-- /.post-content -->
+                  </div>
+                  <!-- /.project-details -->
+                </div>
+                <!-- /.item -->
+                <div
+                  v-for="(item, index) in kingsmanjewels"
+                  :key="item.id"
+                  class="item col-md-6"
+                >
+                  <figure
+                    class="itooltip itooltip-light hover-scale rounded"
+                    v-tippy="{
+                      content: `<h5 class='mb-0 py-2 px-2 bg-white rounded'>${item.title}</h5>`,
+                      allowHTML: true,
+                      followCursor: true,
+                    }"
+                  >
+                    <div
+                      @click="() => setActiveLightBox(true, index, jiyawatches)"
+                      class="cursor-pointer"
+                    >
+                      <nuxt-img :src="item.imageUrl" alt="photo" />
+                    </div>
+                  </figure>
+                </div>
+                <!-- /.item -->
+              </div>
+              <!-- /.row -->
+            </div>
+            <!-- Kingsman Jewels End -->
           </div>
           <!-- /.projects-tiles -->
         </div>
@@ -269,6 +318,7 @@ import {
   lohatk,
   vanikajewels,
   jiyawatches,
+  kingsmanjewels
 } from "~/data/projects";
 const activeLightBox = ref(false);
 const currentSlideIndex = ref();
